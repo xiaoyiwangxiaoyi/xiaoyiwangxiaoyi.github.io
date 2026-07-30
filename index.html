@@ -24,9 +24,22 @@
 
   .research-interests-title {
     margin-top: 1.25rem;
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.4rem;
     font-size: 1.05rem;
     font-weight: 600;
+  }
+
+  .research-interests-inline {
+    margin-bottom: 1.15rem;
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.75;
+  }
+
+  .research-interests-inline span:not(:last-child)::after {
+    margin: 0 0.42rem;
+    color: var(--global-divider-color);
+    content: "·";
   }
 
   .home-sections {
@@ -103,13 +116,54 @@
     line-height: 1.65;
   }
 
+  .news-list {
+    display: grid;
+    gap: 0.65rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .news-list li {
+    display: grid;
+    grid-template-columns: 7.2rem minmax(0, 1fr);
+    gap: 0.75rem;
+    line-height: 1.55;
+  }
+
+  .news-date {
+    color: var(--global-text-color-light);
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+
+  .earlier-news {
+    margin-top: 0.75rem;
+  }
+
+  .earlier-news summary {
+    width: fit-content;
+    color: var(--global-theme-color);
+    font-size: 0.88rem;
+    cursor: pointer;
+  }
+
+  .earlier-news .news-list {
+    margin-top: 0.7rem;
+  }
+
   @media (max-width: 767px) {
     .research-highlights {
       grid-template-columns: 1fr;
       gap: 0.85rem;
     }
+
+    .news-list li {
+      grid-template-columns: 1fr;
+      gap: 0.05rem;
+    }
   }
-</style> <p><strong>Xiaoyi Wang</strong> is an Assistant Professor in the Department of Computer Science at Shantou University, China. He received his Ph.D. in Human–Computer Interaction from the University of Copenhagen under the supervision of <a href="https://www.kasperhornbaek.dk/" rel="external nofollow noopener" target="_blank">Kasper Hornbæk</a> and his M.Sc. in Digital Media from the University of Bremen, where he worked with <a href="https://www.uni-bremen.de/en/dmlab/team/rainer-malaka" rel="external nofollow noopener" target="_blank">Rainer Malaka</a> and <a href="https://www.smeddinck.com/" rel="external nofollow noopener" target="_blank">Jan Smeddinck</a>. After completing his Ph.D., he worked as a consultant at the United Nations before returning to academia.</p> <p>His research lies at the intersection of Human–Computer Interaction and Artificial Intelligence. He investigates how human-centered theories, methods, and interactive systems can improve the transparency, interpretability, and practical use of AI. His recent work focuses on explainable large language models, behavioral modeling, AI-supported mental health and professional training, as well as human performance in immersive environments.</p> <p class="research-interests-title">Research Interests</p> <ul> <li>Human–Computer Interaction</li> <li>Human-Centered AI</li> <li>Interactive AI Systems</li> <li>Human Behavior Modeling</li> <li>Virtual and Mixed Reality</li> </ul> <div class="home-sections"> <section class="home-section"> <h2>Current Research</h2> <div class="research-highlights"> <article class="research-highlight"> <h3><a href="/projects/">AI for Mental Health</a></h3> <p> LLM-assisted systems for understanding therapy conversations, supporting counselor training, and evaluating the emotional fidelity of synthetic dialogue. </p> </article> <article class="research-highlight"> <h3><a href="/projects/">Explainable and Interactive AI</a></h3> <p> Interactive methods that connect AI outputs to dialogue context, human behavior, and established theories so people can interpret and use them responsibly. </p> </article> <article class="research-highlight"> <h3><a href="/projects/">Visual Analytics and Human Decision-Making</a></h3> <p> Visual tools for reasoning about statistical models, experimental design, uncertainty, and human performance. </p> </article> </div> <p class="section-link"><a href="/projects/">Explore all projects →</a></p> </section> <section class="home-section"> <h2>Selected Publications</h2> <ul class="selected-publications"> <li> <a href="https://doi.org/10.1016/j.ijhcs.2026.103853" rel="external nofollow noopener" target="_blank"> MIAdvisor: Enhancing Counselor Competence in Motivational Interviewing through Visual Analytics </a> <span class="publication-meta">International Journal of Human-Computer Studies, 2026</span> </li> <li> <a href="https://doi.org/10.1109/TVCG.2020.3028894" rel="external nofollow noopener" target="_blank">Argus: Interactive a Priori Power Analysis</a> <span class="publication-meta">IEEE Transactions on Visualization and Computer Graphics, 2021</span> </li> <li> <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089" rel="external nofollow noopener" target="_blank"> Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-Generated CBT Sessions </a> <span class="publication-meta">Findings of EMNLP, 2025</span> </li> <li> <a href="https://doi.org/10.1016/j.cag.2025.104452" rel="external nofollow noopener" target="_blank"> PersonalityLens: Visualizing in-Depth Analysis for LLM-Driven Personality Insights </a> <span class="publication-meta">Computers &amp; Graphics, 2025</span> </li> <li> <a href="https://doi.org/10.1109/TAFFC.2026.3681902" rel="external nofollow noopener" target="_blank"> Bridging Discrepancies in Debate: Joint Debate for Enhancing Multimodal Emotion-Cause Pair Extraction in Conversation </a> <span class="publication-meta">IEEE Transactions on Affective Computing, 2026</span> </li> </ul> <p class="section-link"><a href="/publications/">View all publications →</a></p> </section> <section class="home-section"> <h2>Opportunities</h2> <p class="opportunities-text"> I welcome motivated undergraduate and graduate students interested in human-centered AI, large language models, mental health, visual analytics, and immersive interaction. If you would like to work with me, please send a brief introduction, your research interests, and your CV by email. </p> <p class="section-link"> <a href="mailto:xiaoyiwang@stu.edu.cn"><i class="fa-solid fa-envelope"></i> Contact me</a> </p> </section> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Xiaoyi Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+</style> <p><strong>Xiaoyi Wang</strong> is an Assistant Professor in the Department of Computer Science at Shantou University, China. He received his Ph.D. in Human–Computer Interaction from the University of Copenhagen under the supervision of <a href="https://www.kasperhornbaek.dk/" rel="external nofollow noopener" target="_blank">Kasper Hornbæk</a> and his M.Sc. in Digital Media from the University of Bremen, where he worked with <a href="https://www.uni-bremen.de/en/dmlab/team/rainer-malaka" rel="external nofollow noopener" target="_blank">Rainer Malaka</a> and <a href="https://www.smeddinck.com/" rel="external nofollow noopener" target="_blank">Jan Smeddinck</a>. After completing his Ph.D., he worked as a consultant at the United Nations before returning to academia.</p> <p>His research lies at the intersection of Human–Computer Interaction and Artificial Intelligence. He investigates how human-centered theories, methods, and interactive systems can improve the transparency, interpretability, and practical use of AI. His recent work focuses on explainable large language models, behavioral modeling, AI-supported mental health and professional training, as well as human performance in immersive environments.</p> <p class="research-interests-title">Research Interests</p> <div class="research-interests-inline" aria-label="Research interests"> <span>Human–Computer Interaction</span><span>Human-Centered AI</span><span>Interactive AI Systems</span><span>Human Behavior Modeling</span><span>Virtual and Mixed Reality</span> </div> <div class="home-sections"> <section class="home-section"> <h2>News</h2> <ul class="news-list"> <li> <time class="news-date" datetime="2026-07">July 2026</time> <span> Attended the <a href="https://chinavis.org/2026/en/" rel="external nofollow noopener" target="_blank">13th China Visualization and Visual Analytics Conference</a> (ChinaVis 2026) in Guiyang. </span> </li> <li> <time class="news-date" datetime="2026-06">June 2026</time> <span> <a href="https://doi.org/10.1016/j.ijhcs.2026.103853" rel="external nofollow noopener" target="_blank">MIAdvisor</a> was accepted for publication in the <em>International Journal of Human-Computer Studies</em>. </span> </li> <li> <time class="news-date" datetime="2025-11">November 2025</time> <span> Attended <a href="https://2025.emnlp.org/" rel="external nofollow noopener" target="_blank">EMNLP 2025</a> in Suzhou, where our paper <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089" rel="external nofollow noopener" target="_blank">“Feel the Difference?”</a> appeared in <em>Findings of EMNLP</em>. </span> </li> </ul> <details class="earlier-news"> <summary>Earlier news</summary> <ul class="news-list"> <li> <time class="news-date" datetime="2025-10">October 2025</time> <span> <a href="https://doi.org/10.1016/j.cag.2025.104452" rel="external nofollow noopener" target="_blank">PersonalityLens</a> was accepted for publication in <em>Computers &amp; Graphics</em>. </span> </li> <li> <time class="news-date" datetime="2025-10">October 2025</time> <span> Attended the <a href="https://www.ic-icdm.org/jqhjhbzg" rel="external nofollow noopener" target="_blank"> 2nd International Conference on Data Mining and Intelligent Computing </a> (ICDM 2025) in Guangzhou. </span> </li> </ul> </details> </section> <section class="home-section"> <h2>Current Research</h2> <div class="research-highlights"> <article class="research-highlight"> <h3><a href="/projects/">AI for Mental Health</a></h3> <p> LLM-assisted systems for understanding therapy conversations, supporting counselor training, and evaluating the emotional fidelity of synthetic dialogue. </p> </article> <article class="research-highlight"> <h3><a href="/projects/">Explainable and Interactive AI</a></h3> <p> Interactive methods that connect AI outputs to dialogue context, human behavior, and established theories so people can interpret and use them responsibly. </p> </article> <article class="research-highlight"> <h3><a href="/projects/">Visual Analytics and Human Decision-Making</a></h3> <p> Visual tools for reasoning about statistical models, experimental design, uncertainty, and human performance. </p> </article> </div> <p class="section-link"><a href="/projects/">Explore all projects →</a></p> </section> <section class="home-section"> <h2>Selected Publications</h2> <ul class="selected-publications"> <li> <a href="https://doi.org/10.1016/j.ijhcs.2026.103853" rel="external nofollow noopener" target="_blank"> MIAdvisor: Enhancing Counselor Competence in Motivational Interviewing through Visual Analytics </a> <span class="publication-meta">International Journal of Human-Computer Studies, 2026</span> </li> <li> <a href="https://doi.org/10.1109/TVCG.2020.3028894" rel="external nofollow noopener" target="_blank">Argus: Interactive a Priori Power Analysis</a> <span class="publication-meta">IEEE Transactions on Visualization and Computer Graphics, 2021</span> </li> <li> <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089" rel="external nofollow noopener" target="_blank"> Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-Generated CBT Sessions </a> <span class="publication-meta">Findings of EMNLP, 2025</span> </li> <li> <a href="https://doi.org/10.1016/j.cag.2025.104452" rel="external nofollow noopener" target="_blank"> PersonalityLens: Visualizing in-Depth Analysis for LLM-Driven Personality Insights </a> <span class="publication-meta">Computers &amp; Graphics, 2025</span> </li> <li> <a href="https://doi.org/10.1109/TAFFC.2026.3681902" rel="external nofollow noopener" target="_blank"> Bridging Discrepancies in Debate: Joint Debate for Enhancing Multimodal Emotion-Cause Pair Extraction in Conversation </a> <span class="publication-meta">IEEE Transactions on Affective Computing, 2026</span> </li> </ul> <p class="section-link"><a href="/publications/">View all publications →</a></p> </section> <section class="home-section"> <h2>Opportunities</h2> <p class="opportunities-text"> I welcome motivated undergraduate and graduate students interested in human-centered AI, large language models, mental health, visual analytics, and immersive interaction. If you would like to work with me, please send a brief introduction, your research interests, and your CV by email. </p> <p class="section-link"> <a href="mailto:xiaoyiwang@stu.edu.cn"><i class="fa-solid fa-envelope"></i> Contact me</a> </p> </section> </div> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Xiaoyi Wang. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
