@@ -254,7 +254,7 @@ latest_posts:
   }
 </style>
 
-**王晓意**，汕头大学计算机系助理教授。博士毕业于丹麦[哥本哈根大学](https://www.ku.dk/en)人机交互专业，师从国际知名人机交互学者 [Kasper Hornbæk](https://www.kasperhornbaek.dk/) 教授；硕士毕业于德国[不来梅大学](https://www.uni-bremen.de/en/)数字媒体专业，期间与 [Rainer Malaka](https://www.uni-bremen.de/en/dmlab/team/rainer-malaka) 教授和 [Jan Smeddinck](https://www.smeddinck.com/) 教授开展研究合作。博士毕业后曾在联合国担任顾问，随后回到高校从事教学与科研工作。
+**王晓意**，汕头大学计算机系助理教授。博士毕业于丹麦[哥本哈根大学](https://www.ku.dk/en)人机交互专业，师从国际知名人机交互学者 [Kasper Hornbæk](https://www.kasperhornbaek.dk/) 教授；硕士毕业于德国[不来梅大学](https://www.uni-bremen.de/en/)数字媒体专业，期间与 [Rainer Malaka](https://www.uni-bremen.de/en/dmlab/team/rainer-malaka) 教授和 [Jan Smeddinck](https://www.smeddinck.com/) 教授开展研究合作。博士毕业后曾在联合国担任顾问，随后回到高校从事科研与教学工作。
 
 他的研究位于**人机交互与人工智能的交叉领域**，致力于将以人为中心的设计理念与行为科学方法融入人工智能系统，使 AI 更加**智能、可解释、可信赖、易于协作**。近年来主要围绕**大语言模型**、**可解释人工智能**、**人类行为建模**、**AI 心理健康**、**智能交互系统**等方向开展研究，同时关注**虚拟/混合现实（VR/MR）**、**认知负荷**与**远程操控**等新型交互场景中的人机协同问题。
 
