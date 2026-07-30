@@ -13,7 +13,7 @@ profile:
   image_circular: false
   more_info: >
     <div class="profile-social-icons" aria-label="联系方式与学术主页">
-      <a href="mailto:xiaoyiwang@stu.edu.cn" aria-label="电子邮箱"><i class="fa-solid fa-envelope"></i></a>
+      <a href="mailto:xiaoyi.wang@outlook.dk" aria-label="电子邮箱"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://scholar.google.com/citations?user=rTnPg2UAAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://www.linkedin.com/in/xiaoyiwangxiaoyi/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://www.researchgate.net/profile/Xiaoyi-Wang-19?ev=hdr_xprf" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a>
