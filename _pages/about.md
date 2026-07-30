@@ -222,19 +222,34 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         </span>
       </li>
       <li>
-        <time class="news-date" datetime="2025-11">November 2025</time>
+        <time class="news-date" datetime="2026-03">March 2026</time>
         <span>
-          Attended <a href="https://2025.emnlp.org/">EMNLP 2025</a> in Suzhou, where our paper
-          <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
-            “Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-generated CBT Sessions”
-          </a>
-          appeared in <em>Findings of EMNLP</em>.
+          Attended the 7th China Brain Science and Neuromodulation Technology Development Summit Forum and a national
+          key R&amp;D project workshop on non-invasive brain-computer interface equipment in Wuhan, and visited Wuhan
+          Yiruide Medical Equipment New Technology Co., Ltd.
         </span>
       </li>
     </ul>
     <details class="earlier-news">
       <summary>Earlier news</summary>
       <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2025-11">November 2025</time>
+          <span>
+            Attended the <a href="https://psc2025.stu.edu.cn/home">24th Pacific Science Congress</a> (PSC-24) in
+            Shantou.
+          </span>
+        </li>
+        <li>
+          <time class="news-date" datetime="2025-11">November 2025</time>
+          <span>
+            Attended <a href="https://2025.emnlp.org/">EMNLP 2025</a> in Suzhou, where our paper
+            <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
+              “Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-generated CBT Sessions”
+            </a>
+            appeared in <em>Findings of EMNLP</em>.
+          </span>
+        </li>
         <li>
           <time class="news-date" datetime="2025-10">October 2025</time>
           <span>
@@ -250,6 +265,16 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
               2nd International Conference on Data Mining and Intelligent Computing
             </a>
             (ICDM 2025) in Guangzhou.
+          </span>
+        </li>
+        <li>
+          <time class="news-date" datetime="2025-10">October 2025</time>
+          <span>
+            Participated in the
+            <a href="https://www.globalcea.org/global-ce-day-week">
+              10th Global Clinical Engineering Day Celebration
+            </a>
+            and its international clinical engineering forum.
           </span>
         </li>
       </ul>
