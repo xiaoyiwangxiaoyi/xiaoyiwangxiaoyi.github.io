@@ -90,8 +90,33 @@ latest_posts:
   }
 
   .research-highlight {
-    padding-left: 0.85rem;
-    border-left: 2px solid var(--global-divider-color);
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.45rem;
+    background: var(--global-bg-color);
+  }
+
+  .research-highlight-image {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid var(--global-divider-color);
+    background: #fff;
+  }
+
+  .research-highlight-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    transition: transform 180ms ease;
+  }
+
+  .research-highlight-image:hover img {
+    transform: scale(1.025);
+  }
+
+  .research-highlight-copy {
+    padding: 0.8rem 0.85rem 0.9rem;
   }
 
   .research-highlight h3 {
@@ -290,24 +315,54 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
     <h2>Current Research</h2>
     <div class="research-highlights">
       <article class="research-highlight">
-        <h3><a href="{{ '/projects/' | relative_url }}">AI for Mental Health</a></h3>
-        <p>
-          LLM-assisted systems for understanding therapy conversations, supporting counselor training, and evaluating
-          the emotional fidelity of synthetic dialogue.
-        </p>
+        <a class="research-highlight-image" href="{{ '/projects/' | relative_url }}" aria-label="Explore AI for Mental Health projects">
+          <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor visual analytics interface">
+        </a>
+        <div class="research-highlight-copy">
+          <h3><a href="{{ '/projects/' | relative_url }}">AI for Mental Health</a></h3>
+          <p>
+            LLM-assisted systems for understanding therapy conversations, supporting counselor training, and evaluating
+            the emotional fidelity of synthetic dialogue.
+          </p>
+        </div>
       </article>
       <article class="research-highlight">
-        <h3><a href="{{ '/projects/' | relative_url }}">Explainable and Interactive AI</a></h3>
-        <p>
-          Interactive methods that connect AI outputs to dialogue context, human behavior, and established theories so
-          people can interpret and use them responsibly.
-        </p>
+        <a
+          class="research-highlight-image"
+          href="{{ '/projects/' | relative_url }}"
+          aria-label="Explore Explainable and Interactive AI projects"
+        >
+          <img
+            src="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
+            alt="PersonalityLens interactive analysis interface"
+          >
+        </a>
+        <div class="research-highlight-copy">
+          <h3><a href="{{ '/projects/' | relative_url }}">Explainable and Interactive AI</a></h3>
+          <p>
+            Interactive methods that connect AI outputs to dialogue context, human behavior, and established theories so
+            people can interpret and use them responsibly.
+          </p>
+        </div>
       </article>
       <article class="research-highlight">
-        <h3><a href="{{ '/projects/' | relative_url }}">Visual Analytics and Human Decision-Making</a></h3>
-        <p>
-          Visual tools for reasoning about statistical models, experimental design, uncertainty, and human performance.
-        </p>
+        <a
+          class="research-highlight-image"
+          href="{{ '/projects/' | relative_url }}"
+          aria-label="Explore Visual Analytics and Human Decision-Making projects"
+        >
+          <img
+            src="{{ '/assets/img/projects/visual-model-reasoning.png' | relative_url }}"
+            alt="Argus interactive power analysis interface"
+          >
+        </a>
+        <div class="research-highlight-copy">
+          <h3><a href="{{ '/projects/' | relative_url }}">Visual Analytics and Human Decision-Making</a></h3>
+          <p>
+            Visual tools for reasoning about statistical models, experimental design, uncertainty, and human
+            performance.
+          </p>
+        </div>
       </article>
     </div>
     <p class="section-link"><a href="{{ '/projects/' | relative_url }}">Explore all projects →</a></p>
