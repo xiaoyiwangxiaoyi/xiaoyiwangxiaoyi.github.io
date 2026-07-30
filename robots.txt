@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://xiaoyiwangxiaoyi.github.io/sitemap.xml
