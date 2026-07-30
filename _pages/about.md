@@ -50,9 +50,22 @@ latest_posts:
 
   .research-interests-title {
     margin-top: 1.25rem;
-    margin-bottom: 0.65rem;
+    margin-bottom: 0.4rem;
     font-size: 1.05rem;
     font-weight: 600;
+  }
+
+  .research-interests-inline {
+    margin-bottom: 1.15rem;
+    color: var(--global-text-color-light);
+    font-size: 0.94rem;
+    line-height: 1.75;
+  }
+
+  .research-interests-inline span:not(:last-child)::after {
+    margin: 0 0.42rem;
+    color: var(--global-divider-color);
+    content: "·";
   }
 
   .home-sections {
@@ -129,10 +142,51 @@ latest_posts:
     line-height: 1.65;
   }
 
+  .news-list {
+    display: grid;
+    gap: 0.65rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .news-list li {
+    display: grid;
+    grid-template-columns: 7.2rem minmax(0, 1fr);
+    gap: 0.75rem;
+    line-height: 1.55;
+  }
+
+  .news-date {
+    color: var(--global-text-color-light);
+    font-size: 0.84rem;
+    white-space: nowrap;
+  }
+
+  .earlier-news {
+    margin-top: 0.75rem;
+  }
+
+  .earlier-news summary {
+    width: fit-content;
+    color: var(--global-theme-color);
+    font-size: 0.88rem;
+    cursor: pointer;
+  }
+
+  .earlier-news .news-list {
+    margin-top: 0.7rem;
+  }
+
   @media (max-width: 767px) {
     .research-highlights {
       grid-template-columns: 1fr;
       gap: 0.85rem;
+    }
+
+    .news-list li {
+      grid-template-columns: 1fr;
+      gap: 0.05rem;
     }
   }
 </style>
@@ -143,13 +197,63 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
 
 <p class="research-interests-title">Research Interests</p>
 
-- Human–Computer Interaction
-- Human-Centered AI
-- Interactive AI Systems
-- Human Behavior Modeling
-- Virtual and Mixed Reality
+<div class="research-interests-inline" aria-label="Research interests">
+  <span>Human–Computer Interaction</span><span>Human-Centered AI</span><span>Interactive AI Systems</span
+  ><span>Human Behavior Modeling</span><span>Virtual and Mixed Reality</span>
+</div>
 
 <div class="home-sections">
+  <section class="home-section">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li>
+        <time class="news-date" datetime="2026-07">July 2026</time>
+        <span>
+          Attended the
+          <a href="https://chinavis.org/2026/en/">13th China Visualization and Visual Analytics Conference</a>
+          (ChinaVis 2026) in Guiyang.
+        </span>
+      </li>
+      <li>
+        <time class="news-date" datetime="2026-06">June 2026</time>
+        <span>
+          <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> was accepted for publication in the
+          <em>International Journal of Human-Computer Studies</em>.
+        </span>
+      </li>
+      <li>
+        <time class="news-date" datetime="2025-11">November 2025</time>
+        <span>
+          Attended <a href="https://2025.emnlp.org/">EMNLP 2025</a> in Suzhou, where our paper
+          <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">“Feel the Difference?”</a> appeared in
+          <em>Findings of EMNLP</em>.
+        </span>
+      </li>
+    </ul>
+    <details class="earlier-news">
+      <summary>Earlier news</summary>
+      <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2025-10">October 2025</time>
+          <span>
+            <a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a> was accepted for publication in
+            <em>Computers &amp; Graphics</em>.
+          </span>
+        </li>
+        <li>
+          <time class="news-date" datetime="2025-10">October 2025</time>
+          <span>
+            Attended the
+            <a href="https://www.ic-icdm.org/jqhjhbzg">
+              2nd International Conference on Data Mining and Intelligent Computing
+            </a>
+            (ICDM 2025) in Guangzhou.
+          </span>
+        </li>
+      </ul>
+    </details>
+  </section>
+
   <section class="home-section">
     <h2>Current Research</h2>
     <div class="research-highlights">
