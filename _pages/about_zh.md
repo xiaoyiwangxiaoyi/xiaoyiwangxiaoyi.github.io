@@ -237,7 +237,13 @@ latest_posts:
 
 他的研究位于**人机交互与人工智能的交叉领域**，致力于将以人为中心的设计理念与行为科学方法融入人工智能系统，使 AI 更加**智能、可解释、可信赖、易于协作**。近年来主要围绕**大语言模型**、**可解释人工智能**、**人类行为建模**、**AI 心理健康**、**智能交互系统**等方向开展研究，同时关注**虚拟/混合现实（VR/MR）**、**认知负荷**与**远程操控**等新型交互场景中的人机协同问题。
 
+<p class="research-interests-title">招生与合作</p>
+
 欢迎对**人工智能、人机交互、大语言模型、心理健康 AI、虚拟现实**等方向感兴趣的本科生和研究生加入课题组，共同探索下一代智能交互技术。
+
+<p class="section-link">
+  <a href="mailto:xiaoyi.wang@outlook.dk"><i class="fa-solid fa-envelope"></i> 联系我</a>
+</p>
 
 <p class="research-interests-title">主要研究方向</p>
 
@@ -387,13 +393,4 @@ latest_posts:
     <p class="section-link"><a href="{{ '/publications/' | relative_url }}">查看全部论文 →</a></p>
   </section>
 
-  <section class="home-section">
-    <h2>招生与合作</h2>
-    <p class="opportunities-text">
-      欢迎对以人为中心的人工智能、大语言模型、心理健康、可视分析和沉浸式交互感兴趣的本科生和研究生加入课题组。如果您希望与我合作，请通过电子邮件发送个人简介、研究兴趣和简历。
-    </p>
-    <p class="section-link">
-      <a href="mailto:xiaoyi.wang@outlook.dk"><i class="fa-solid fa-envelope"></i> 联系我</a>
-    </p>
-  </section>
 </div>
