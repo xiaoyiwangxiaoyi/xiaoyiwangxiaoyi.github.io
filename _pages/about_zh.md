@@ -285,7 +285,7 @@ latest_posts:
           <span>
             赴苏州参加 <a href="https://2025.emnlp.org/">EMNLP 2025</a>。论文
             <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
-              “感受到差异了吗？真实与大语言模型生成的认知行为治疗会话情绪曲线对比分析”
+              “Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-Generated CBT Sessions”
             </a>
             发表于 <em>Findings of EMNLP</em>。
           </span>
@@ -364,7 +364,7 @@ latest_posts:
       </li>
       <li>
         <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
-          感受到差异了吗？真实与大语言模型生成的认知行为治疗会话情绪曲线对比分析
+          Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-Generated CBT Sessions
         </a>
         <span class="publication-meta">Findings of EMNLP，2025</span>
       </li>
