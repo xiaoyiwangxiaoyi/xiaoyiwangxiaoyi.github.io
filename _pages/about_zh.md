@@ -273,6 +273,7 @@ latest_posts:
   <li>💬 人工智能与心理健康</li>
   <li>🖥️ 人机交互与智能系统</li>
   <li>🥽 虚拟现实与沉浸式交互</li>
+  <li>📊 可视分析与智能决策</li>
 </ul>
 
 <div class="home-sections">
