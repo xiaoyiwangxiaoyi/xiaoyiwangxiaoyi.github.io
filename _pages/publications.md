@@ -23,18 +23,16 @@ nav_order: 2
   }
 
   .publications .links .video-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     min-width: 2rem;
-    font-size: 0.875rem;
-    line-height: 1.5;
     text-align: center;
     vertical-align: middle;
   }
 
   .publications .links .video-icon i {
-    line-height: inherit;
+    font-size: 0.72rem;
+    line-height: 1;
+    vertical-align: 0.02em;
   }
 
   @media (min-width: 576px) {
