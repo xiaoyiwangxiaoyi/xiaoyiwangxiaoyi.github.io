@@ -355,11 +355,13 @@ latest_posts:
     <h2>代表性论文</h2>
     <ul class="selected-publications">
       <li>
-        <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor：通过可视分析提升动机式访谈咨询师的专业能力</a>
+        <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">
+          MIAdvisor: Enhancing Counselor Competence in Motivational Interviewing through Visual Analytics
+        </a>
         <span class="publication-meta">International Journal of Human-Computer Studies，2026</span>
       </li>
       <li>
-        <a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus：交互式先验功效分析</a>
+        <a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus: Interactive a Priori Power Analysis</a>
         <span class="publication-meta">IEEE Transactions on Visualization and Computer Graphics，2021</span>
       </li>
       <li>
@@ -369,11 +371,16 @@ latest_posts:
         <span class="publication-meta">Findings of EMNLP，2025</span>
       </li>
       <li>
-        <a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens：大语言模型驱动的人格洞察深度可视分析</a>
+        <a href="https://doi.org/10.1016/j.cag.2025.104452">
+          PersonalityLens: Visualizing in-Depth Analysis for LLM-Driven Personality Insights
+        </a>
         <span class="publication-meta">Computers &amp; Graphics，2025</span>
       </li>
       <li>
-        <a href="https://doi.org/10.1109/TAFFC.2026.3681902">弥合辩论分歧：利用联合辩论增强多模态对话情绪—原因对抽取</a>
+        <a href="https://doi.org/10.1109/TAFFC.2026.3681902">
+          Bridging Discrepancies in Debate: Joint Debate for Enhancing Multimodal Emotion-Cause Pair Extraction in
+          Conversation
+        </a>
         <span class="publication-meta">IEEE Transactions on Affective Computing，2026</span>
       </li>
     </ul>
