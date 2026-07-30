@@ -17,7 +17,6 @@ profile:
       <a href="https://scholar.google.com/citations?user=rTnPg2UAAAAJ" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
       <a href="https://www.linkedin.com/in/xiaoyiwangxiaoyi/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
       <a href="https://www.researchgate.net/profile/Xiaoyi-Wang-19?ev=hdr_xprf" aria-label="ResearchGate"><i class="ai ai-researchgate"></i></a>
-      <a href="https://twitter.com/xiaoyi_wang_" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
       <a href="https://gitlab.com/xiaoyi.wang" aria-label="GitLab"><i class="fa-brands fa-gitlab"></i></a>
     </div>
 
@@ -48,7 +47,7 @@ latest_posts:
 
   .profile .more-info .profile-social-icons {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     width: 100%;
     margin-top: 0.6rem;
     font-size: 1.2rem;
