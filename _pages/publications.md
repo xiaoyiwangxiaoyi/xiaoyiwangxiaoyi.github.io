@@ -35,6 +35,12 @@ nav_order: 2
     vertical-align: 0.02em;
   }
 
+  .publications .venue-ranking {
+    color: var(--global-text-color);
+    font-style: normal;
+    font-weight: 600;
+  }
+
   @media (min-width: 576px) {
     .publications ol.bibliography li .row {
       justify-content: center;
@@ -59,8 +65,26 @@ nav_order: 2
 
 <script>
   (() => {
+    const publicationRankings = {
+      WANG2026103853: "CCF-A · 人机交互国际顶级期刊",
+      "wang-etal-2025-feel": "CCF-B · 自然语言处理国际顶级会议",
+      wangArgusInteractivePriori2021: "CCF-A · 信息可视化国际顶级期刊",
+    };
+
     const enhancePublicationLinks = () => {
       document.querySelectorAll(".publications ol.bibliography > li").forEach((publication) => {
+        const entry = publication.querySelector("[id]");
+        const ranking = entry ? publicationRankings[entry.id] : null;
+        const periodical = entry?.querySelector(".periodical");
+
+        if (ranking && periodical && !periodical.querySelector(".venue-ranking")) {
+          const rankingLabel = document.createElement("span");
+
+          rankingLabel.className = "venue-ranking";
+          rankingLabel.textContent = ` · ${ranking}`;
+          periodical.appendChild(rankingLabel);
+        }
+
         const links = publication.querySelector(".links");
         const bibToggle = links?.querySelector("a.bibtex");
         const bibCode = publication.querySelector(".bibtex.hidden code");
