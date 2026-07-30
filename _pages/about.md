@@ -55,6 +55,12 @@ latest_posts:
     font-weight: 600;
   }
 
+  .research-interests-title .opportunities-contact {
+    margin-left: 0.65rem;
+    font-size: 0.88rem;
+    font-weight: 400;
+  }
+
   .research-interests-inline {
     margin-bottom: 1.15rem;
     color: var(--global-text-color-light);
@@ -232,6 +238,17 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
   ><span>Human Behavior Modeling</span><span>Virtual and Mixed Reality</span>
 </div>
 
+<p class="research-interests-title">
+  Opportunities
+  <a class="opportunities-contact" href="mailto:xiaoyi.wang@outlook.dk"><i class="fa-solid fa-envelope"></i> Contact me</a>
+</p>
+
+<p class="opportunities-text">
+  I welcome motivated undergraduate and graduate students interested in human-centered AI, large language models, AI for
+  mental health, visual analytics, and virtual and mixed reality to join our research group and explore the next
+  generation of intelligent interactive technologies.
+</p>
+
 <div class="home-sections">
   <section class="home-section">
     <h2>News</h2>
@@ -404,15 +421,4 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
     <p class="section-link"><a href="{{ '/publications/' | relative_url }}">View all publications →</a></p>
   </section>
 
-  <section class="home-section">
-    <h2>Opportunities</h2>
-    <p class="opportunities-text">
-      I welcome motivated undergraduate and graduate students interested in human-centered AI, large language models,
-      mental health, visual analytics, and immersive interaction. If you would like to work with me, please send a brief
-      introduction, your research interests, and your CV by email.
-    </p>
-    <p class="section-link">
-      <a href="mailto:xiaoyi.wang@outlook.dk"><i class="fa-solid fa-envelope"></i> Contact me</a>
-    </p>
-  </section>
 </div>
