@@ -56,7 +56,7 @@ latest_posts:
   }
 </style>
 
-**Xiaoyi Wang** is an Assistant Professor in the Department of Computer Science at Shantou University, China. He received his Ph.D. in Human–Computer Interaction from the University of Copenhagen under the supervision of Kasper Hornbæk and his M.Sc. in Digital Media from the University of Bremen, where he worked with Rainer Malaka and Jan Smeddinck. After completing his Ph.D., he worked as a consultant at the United Nations before returning to academia.
+**Xiaoyi Wang** is an Assistant Professor in the Department of Computer Science at Shantou University, China. He received his Ph.D. in Human–Computer Interaction from the University of Copenhagen under the supervision of [Kasper Hornbæk](https://www.kasperhornbaek.dk/) and his M.Sc. in Digital Media from the University of Bremen, where he worked with [Rainer Malaka](https://www.uni-bremen.de/en/dmlab/team/rainer-malaka) and [Jan Smeddinck](https://www.smeddinck.com/). After completing his Ph.D., he worked as a consultant at the United Nations before returning to academia.
 
 His research lies at the intersection of Human–Computer Interaction and Artificial Intelligence. He investigates how human-centered theories, methods, and interactive systems can improve the transparency, interpretability, and practical use of AI. His recent work focuses on explainable large language models, behavioral modeling, AI-supported mental health and professional training, as well as human performance in immersive environments.
 
