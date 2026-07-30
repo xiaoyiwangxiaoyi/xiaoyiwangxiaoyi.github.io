@@ -67,6 +67,17 @@ latest_posts:
     font-weight: 600;
   }
 
+  .research-directions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem 1.25rem;
+    margin: 0 0 1.15rem;
+    padding: 0;
+    list-style: none;
+    font-size: 0.94rem;
+    line-height: 1.55;
+  }
+
   .research-interests-inline {
     margin-bottom: 1.15rem;
     color: var(--global-text-color-light);
@@ -221,6 +232,10 @@ latest_posts:
   }
 
   @media (max-width: 767px) {
+    .research-directions-grid {
+      grid-template-columns: 1fr;
+    }
+
     .research-highlights {
       grid-template-columns: 1fr;
       gap: 0.85rem;
@@ -247,11 +262,13 @@ latest_posts:
 
 <p class="research-interests-title">主要研究方向</p>
 
-- 🤖 大语言模型与智能体（LLMs & AI Agents）
-- 🧠 可解释人工智能（Explainable AI）
-- 💬 人工智能与心理健康（AI for Mental Health）
-- 🖥️ 人机交互与智能系统（Human–Computer Interaction & Intelligent Systems）
-- 🥽 虚拟现实与沉浸式交互（Virtual & Mixed Reality）
+<ul class="research-directions-grid">
+  <li>🤖 大语言模型与智能体（LLMs &amp; AI Agents）</li>
+  <li>🧠 可解释人工智能（Explainable AI）</li>
+  <li>💬 人工智能与心理健康（AI for Mental Health）</li>
+  <li>🖥️ 人机交互与智能系统（Human–Computer Interaction &amp; Intelligent Systems）</li>
+  <li>🥽 虚拟现实与沉浸式交互（Virtual &amp; Mixed Reality）</li>
+</ul>
 
 <div class="home-sections">
   <section class="home-section">
