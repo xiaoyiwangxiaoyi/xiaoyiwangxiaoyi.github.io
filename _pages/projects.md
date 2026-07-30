@@ -125,6 +125,37 @@ nav_order: 3
     line-height: 1.4;
   }
 
+  .direction-media {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .media-item {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.45rem;
+    background: #000;
+  }
+
+  .media-item video,
+  .media-item iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    background: #000;
+  }
+
+  .media-item figcaption {
+    padding: 0.55rem 0.75rem;
+    border-top: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    color: var(--global-text-color-light);
+    font-size: 0.78rem;
+    line-height: 1.4;
+  }
+
   .projects-footer {
     padding-top: 1rem;
     border-top: 1px solid var(--global-divider-color);
@@ -203,10 +234,32 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <figure class="direction-visual">
-      <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor visual analytics interface">
-      <figcaption>MIAdvisor supports interactive exploration of therapy sessions, skills, and interaction patterns.</figcaption>
-    </figure>
+    <aside class="direction-media" aria-label="AI for mental health project videos">
+      <figure class="media-item">
+        <video
+          controls
+          preload="metadata"
+          playsinline
+          poster="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}"
+        >
+          <source src="{{ '/assets/video/projects/miadvisor.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+        <figcaption>MIAdvisor — system walkthrough and visual analysis workflow.</figcaption>
+      </figure>
+      <figure class="media-item">
+        <video
+          controls
+          preload="metadata"
+          playsinline
+          poster="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
+        >
+          <source src="{{ '/assets/video/projects/personalitylens.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support embedded video.
+        </video>
+        <figcaption>PersonalityLens — interactive, context-aware personality analysis.</figcaption>
+      </figure>
+    </aside>
   </div>
 </section>
 
@@ -268,10 +321,28 @@ nav_order: 3
         </div>
       </div>
     </div>
-    <figure class="direction-visual">
-      <img src="{{ '/assets/img/projects/visual-model-reasoning.png' | relative_url }}" alt="Argus interactive power analysis interface">
-      <figcaption>Argus turns power analysis from a single calculation into an interactive design exploration.</figcaption>
-    </figure>
+    <aside class="direction-media" aria-label="Visual analytics project videos">
+      <figure class="media-item">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/eUZoZGwk7AU"
+          title="Argus video demonstration"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <figcaption>Argus — interactive a priori power analysis.</figcaption>
+      </figure>
+      <figure class="media-item">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/6cAxCflds3A"
+          title="RegLine video demonstration"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <figcaption>RegLine — visual support for refining regression models.</figcaption>
+      </figure>
+    </aside>
   </div>
 </section>
 
