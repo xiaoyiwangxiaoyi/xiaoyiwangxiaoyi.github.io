@@ -245,8 +245,9 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
 
 <p class="opportunities-text">
   I welcome motivated undergraduate and graduate students interested in human-centered AI, large language models, AI for
-  mental health, and immersive interaction. If you would like to work with me, please send a brief introduction, your
-  research interests, and your CV by email.
+  mental health, and immersive interaction to join our research group and explore the next generation of intelligent
+  interactive technologies. If you would like to join us, please send a brief introduction, your research interests, and
+  your CV by email.
 </p>
 
 <div class="home-sections">
