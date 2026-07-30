@@ -187,10 +187,8 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         <span class="publication-meta">International Journal of Human-Computer Studies, 2026</span>
       </li>
       <li>
-        <a href="https://doi.org/10.1016/j.cag.2025.104452">
-          PersonalityLens: Visualizing in-Depth Analysis for LLM-Driven Personality Insights
-        </a>
-        <span class="publication-meta">Computers &amp; Graphics, 2025</span>
+        <a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus: Interactive a Priori Power Analysis</a>
+        <span class="publication-meta">IEEE Transactions on Visualization and Computer Graphics, 2021</span>
       </li>
       <li>
         <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
@@ -199,8 +197,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         <span class="publication-meta">Findings of EMNLP, 2025</span>
       </li>
       <li>
-        <a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus: Interactive a Priori Power Analysis</a>
-        <span class="publication-meta">IEEE Transactions on Visualization and Computer Graphics, 2021</span>
+        <a href="https://doi.org/10.1016/j.cag.2025.104452">
+          PersonalityLens: Visualizing in-Depth Analysis for LLM-Driven Personality Insights
+        </a>
+        <span class="publication-meta">Computers &amp; Graphics, 2025</span>
       </li>
       <li>
         <a href="https://doi.org/10.1109/TAFFC.2026.3681902">
