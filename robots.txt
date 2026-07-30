@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xiaoyiwangxiaoyi.github.io/sitemap.xml
+Sitemap: https://xiaoyiwang.org/sitemap.xml
