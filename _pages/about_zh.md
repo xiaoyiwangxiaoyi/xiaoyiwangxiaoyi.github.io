@@ -3,7 +3,7 @@ layout: about
 title: 中文
 permalink: /zh/
 nav: true
-nav_order: 3
+nav_order: 4
 lang: zh-CN
 subtitle: 汕头大学计算机系 · 助理教授
 
