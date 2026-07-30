@@ -131,22 +131,31 @@ nav_order: 3
         <div class="project-item">
           <h3><a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a></h3>
           <p>
-            An LLM-assisted visual analytics system for helping counselor trainees reflect on motivational interviewing
-            strategies and counselor-client dynamics.
+            Counselor trainees need to understand not only which motivational interviewing techniques were used, but
+            also how those techniques affected a client's behavior, cognition, and emotions. MIAdvisor uses LLMs to
+            annotate therapy conversations with the Motivational Interviewing Skill Code and turns the annotations into
+            linked visual views. Trainees can inspect interaction dynamics, recurring skill-response patterns, and
+            differences across sessions to support reflective and vicarious learning.
           </p>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">RealCBT and emotional fidelity</a></h3>
           <p>
-            A dataset and analytical framework for comparing emotional arcs in real and LLM-generated cognitive
-            behavioral therapy sessions.
+            Synthetic therapy dialogues are widely used because authentic counseling data are difficult to obtain, yet
+            fluent language does not guarantee realistic therapeutic dynamics. This project introduces RealCBT, a
+            dataset of authentic cognitive behavioral therapy sessions, and adapts an emotion-dynamics framework to
+            compare valence, arousal, and dominance trajectories in real and LLM-generated dialogues. The results reveal
+            important gaps in emotional variability, reactivity, regulation, and counselor-client alignment.
           </p>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a></h3>
           <p>
-            A visual analysis tool that connects LLM-detected personality patterns with dialogue context and established
-            psychological theory.
+            LLMs can infer personality traits from language, but their outputs are difficult to interpret without the
+            underlying dialogue context and psychological mechanisms. PersonalityLens connects traits and facets to
+            supporting utterances, shows how they evolve over time, and aligns them with established personality theory.
+            Case studies in fictional and therapy dialogue demonstrate how the system supports multi-level,
+            context-aware interpretation rather than treating personality assessment as a single prediction.
           </p>
         </div>
       </div>
@@ -171,22 +180,31 @@ nav_order: 3
         <div class="project-item">
           <h3><a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus</a></h3>
           <p>
-            Interactive simulation and visualization for exploring statistical power, sample-size trade-offs, effect
-            sizes, and experimental confounds.
+            Conventional power-analysis tools return a sample-size calculation after researchers specify fixed
+            assumptions, offering little support for reasoning about uncertain design choices. Argus instead simulates
+            experimental outcomes and visualizes how power changes with sample size, effect size, replications, order
+            effects, and other confounds. Its coordinated views and exploration history help researchers compare design
+            scenarios, understand trade-offs, and make more defensible decisions before collecting data.
           </p>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1145/3399715.3399913">RegLine</a></h3>
           <p>
-            A visual analytics environment that helps novices iteratively refine linear regression models and verify
-            their assumptions.
+            Refining even a simple linear regression model requires repeated transformations, residual checks,
+            assumption verification, and comparisons with earlier models - a process that is especially difficult for
+            novices. RegLine integrates these activities into an iterative visual workspace. It exposes the effects of
+            transformations and influential observations, links residual and assumption diagnostics, and preserves
+            alternative models so users can compare how each refinement changes validity and accuracy.
           </p>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1145/3399715.3399906">Structured time-series exploration</a></h3>
           <p>
-            A navigation method that reveals relationships among forecast accuracy, validation folds, and predicted
-            values across multiple charts.
+            Evaluating time-series forecasts requires moving among charts of aggregate accuracy, cross-validation folds,
+            and predicted versus observed values, but conventional tools leave this sequence unstructured. This project
+            constructs a navigation graph from the syntax and semantics of the charts and exposes relevant paths through
+            a contextual menu. The approach helps analysts systematically uncover relationships among metrics, folds,
+            and forecasts instead of examining disconnected plots in an arbitrary order.
           </p>
         </div>
       </div>
@@ -211,15 +229,21 @@ nav_order: 3
         <div class="project-item">
           <h3><a href="https://doi.org/10.1016/j.entcom.2018.10.001">Exercise-linked game rewards</a></h3>
           <p>
-            A pervasive gaming approach that converts prior exercise performance into in-game rewards to strengthen
-            motivation and exercise intensity.
+            Traditional exergames require people to exercise while playing, which can limit accessibility and long-term
+            use. This project studies pervasive accumulated context exergames, where physical activity completed earlier
+            is translated into rewards in a later sedentary game. A controlled study shows that explicitly linking
+            exercise performance to game rewards can improve motivation and increase exercise intensity, suggesting a
+            flexible way to connect everyday activity tracking with engaging play.
           </p>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1145/3656650.3656662">Multi-state uncertainty visualization</a></h3>
           <p>
-            Visualizations that let people move between complementary statistical representations, improving confidence
-            and accuracy in probability estimation.
+            A single statistical chart exposes only part of an uncertain distribution and may support one reasoning task
+            while making another difficult. Multi-state visualizations let people switch between complementary
+            representations, pairing error bars with violin plots, quantile dot plots, or hypothetical outcome plots. A
+            crowdsourced experiment shows that access to multiple coordinated states improves both the accuracy and
+            confidence of probability estimates, informing the design of uncertainty displays for decision-making.
           </p>
         </div>
       </div>
