@@ -22,10 +22,7 @@ nav_order: 3
   }
 
   .direction-grid {
-    display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(15rem, 0.75fr);
-    gap: 2rem;
-    align-items: start;
+    display: block;
   }
 
   .direction-number {
@@ -51,10 +48,14 @@ nav_order: 3
 
   .project-list {
     display: grid;
-    gap: 0.8rem;
+    gap: 1.5rem;
   }
 
   .project-item {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(17rem, 0.7fr);
+    gap: 1.5rem;
+    align-items: start;
     padding-left: 1rem;
     border-left: 2px solid var(--global-divider-color);
   }
@@ -102,7 +103,7 @@ nav_order: 3
     font-size: 0.8rem;
   }
 
-  .direction-visual {
+  .project-media {
     margin: 0;
     overflow: hidden;
     border: 1px solid var(--global-divider-color);
@@ -110,36 +111,15 @@ nav_order: 3
     background: #fff;
   }
 
-  .direction-visual img {
+  .project-media img {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: contain;
   }
 
-  .direction-visual figcaption {
-    padding: 0.65rem 0.8rem;
-    border-top: 1px solid var(--global-divider-color);
-    color: var(--global-text-color-light);
-    font-size: 0.78rem;
-    line-height: 1.4;
-  }
-
-  .direction-media {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .media-item {
-    margin: 0;
-    overflow: hidden;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 0.45rem;
-    background: #000;
-  }
-
-  .media-item video,
-  .media-item iframe {
+  .project-media video,
+  .project-media iframe {
     display: block;
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -147,7 +127,7 @@ nav_order: 3
     background: #000;
   }
 
-  .media-item figcaption {
+  .project-media figcaption {
     padding: 0.55rem 0.75rem;
     border-top: 1px solid var(--global-divider-color);
     background: var(--global-bg-color);
@@ -162,13 +142,9 @@ nav_order: 3
   }
 
   @media (max-width: 767px) {
-    .direction-grid {
+    .project-item {
       grid-template-columns: 1fr;
-      gap: 1.25rem;
-    }
-
-    .direction-visual {
-      order: -1;
+      gap: 0.9rem;
     }
   }
 </style>
@@ -190,76 +166,89 @@ nav_order: 3
       </p>
       <div class="project-list">
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a></h3>
-          <p>
-            Counselor trainees need to understand not only which motivational interviewing techniques were used, but
-            also how those techniques affected a client's behavior, cognition, and emotions. MIAdvisor uses LLMs to
-            annotate therapy conversations with the Motivational Interviewing Skill Code and turns the annotations into
-            linked visual views. Trainees can inspect interaction dynamics, recurring skill-response patterns, and
-            differences across sessions to support reflective and vicarious learning.
-          </p>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a></h3>
+            <p>
+              Counselor trainees need to understand not only which motivational interviewing techniques were used, but
+              also how those techniques affected a client's behavior, cognition, and emotions. MIAdvisor uses LLMs to
+              annotate therapy conversations with the Motivational Interviewing Skill Code and turns the annotations
+              into linked visual views. Trainees can inspect interaction dynamics, recurring skill-response patterns,
+              and differences across sessions to support reflective and vicarious learning.
+            </p>
+          </div>
+          <figure class="project-media">
+            <video
+              controls
+              preload="metadata"
+              playsinline
+              poster="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}"
+            >
+              <source src="{{ '/assets/video/projects/miadvisor.mp4' | relative_url }}" type="video/mp4">
+              Your browser does not support embedded video.
+            </video>
+            <figcaption>MIAdvisor — system walkthrough and visual analysis workflow.</figcaption>
+          </figure>
         </div>
         <div class="project-item">
-          <h3><a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">RealCBT and emotional fidelity</a></h3>
-          <p>
-            Synthetic therapy dialogues are widely used because authentic counseling data are difficult to obtain, yet
-            fluent language does not guarantee realistic therapeutic dynamics. This project introduces RealCBT, a
-            dataset of authentic cognitive behavioral therapy sessions, and adapts an emotion-dynamics framework to
-            compare valence, arousal, and dominance trajectories in real and LLM-generated dialogues. The results reveal
-            important gaps in emotional variability, reactivity, regulation, and counselor-client alignment.
-          </p>
-          <div class="project-resources">
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">RealCBT and emotional fidelity</a></h3>
+            <p>
+              Synthetic therapy dialogues are widely used because authentic counseling data are difficult to obtain,
+              yet fluent language does not guarantee realistic therapeutic dynamics. This project introduces RealCBT, a
+              dataset of authentic cognitive behavioral therapy sessions, and adapts an emotion-dynamics framework to
+              compare valence, arousal, and dominance trajectories in real and LLM-generated dialogues. The results
+              reveal important gaps in emotional variability, reactivity, regulation, and counselor-client alignment.
+            </p>
+            <div class="project-resources">
+              <a href="{{ '/assets/img/projects/realcbt-emotional-arc.png' | relative_url }}" target="_blank">
+                <i class="fa-solid fa-diagram-project"></i> Method figure
+              </a>
+              <a href="https://gitlab.com/xiaoyi.wang/realcbt-dataset" target="_blank" rel="noopener">
+                <i class="fa-solid fa-database"></i> Dataset
+              </a>
+            </div>
+          </div>
+          <figure class="project-media">
             <a href="{{ '/assets/img/projects/realcbt-emotional-arc.png' | relative_url }}" target="_blank">
-              <i class="fa-solid fa-diagram-project"></i> Method figure
+              <img
+                src="{{ '/assets/img/projects/realcbt-emotional-arc.png' | relative_url }}"
+                alt="RealCBT emotional arc analysis workflow"
+              >
             </a>
-            <a href="https://gitlab.com/xiaoyi.wang/realcbt-dataset" target="_blank" rel="noopener">
-              <i class="fa-solid fa-database"></i> Dataset
-            </a>
-          </div>
+            <figcaption>RealCBT — emotional-arc extraction and comparison workflow.</figcaption>
+          </figure>
         </div>
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a></h3>
-          <p>
-            LLMs can infer personality traits from language, but their outputs are difficult to interpret without the
-            underlying dialogue context and psychological mechanisms. PersonalityLens connects traits and facets to
-            supporting utterances, shows how they evolve over time, and aligns them with established personality theory.
-            Case studies in fictional and therapy dialogue demonstrate how the system supports multi-level,
-            context-aware interpretation rather than treating personality assessment as a single prediction.
-          </p>
-          <div class="project-resources">
-            <a href="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}" target="_blank">
-              <i class="fa-regular fa-image"></i> System overview
-            </a>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a></h3>
+            <p>
+              LLMs can infer personality traits from language, but their outputs are difficult to interpret without the
+              underlying dialogue context and psychological mechanisms. PersonalityLens connects traits and facets to
+              supporting utterances, shows how they evolve over time, and aligns them with established personality
+              theory. Case studies in fictional and therapy dialogue demonstrate how the system supports multi-level,
+              context-aware interpretation rather than treating personality assessment as a single prediction.
+            </p>
+            <div class="project-resources">
+              <a href="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}" target="_blank">
+                <i class="fa-regular fa-image"></i> System overview
+              </a>
+            </div>
           </div>
+          <figure class="project-media">
+            <video
+              controls
+              preload="metadata"
+              playsinline
+              poster="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
+            >
+              <source src="{{ '/assets/video/projects/personalitylens.mp4' | relative_url }}" type="video/mp4">
+              Your browser does not support embedded video.
+            </video>
+            <figcaption>PersonalityLens — interactive, context-aware personality analysis.</figcaption>
+          </figure>
         </div>
       </div>
     </div>
-    <aside class="direction-media" aria-label="AI for mental health project videos">
-      <figure class="media-item">
-        <video
-          controls
-          preload="metadata"
-          playsinline
-          poster="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}"
-        >
-          <source src="{{ '/assets/video/projects/miadvisor.mp4' | relative_url }}" type="video/mp4">
-          Your browser does not support embedded video.
-        </video>
-        <figcaption>MIAdvisor — system walkthrough and visual analysis workflow.</figcaption>
-      </figure>
-      <figure class="media-item">
-        <video
-          controls
-          preload="metadata"
-          playsinline
-          poster="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
-        >
-          <source src="{{ '/assets/video/projects/personalitylens.mp4' | relative_url }}" type="video/mp4">
-          Your browser does not support embedded video.
-        </video>
-        <figcaption>PersonalityLens — interactive, context-aware personality analysis.</figcaption>
-      </figure>
-    </aside>
   </div>
 </section>
 
@@ -274,75 +263,87 @@ nav_order: 3
       </p>
       <div class="project-list">
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus</a></h3>
-          <p>
-            Conventional power-analysis tools return a sample-size calculation after researchers specify fixed
-            assumptions, offering little support for reasoning about uncertain design choices. Argus instead simulates
-            experimental outcomes and visualizes how power changes with sample size, effect size, replications, order
-            effects, and other confounds. Its coordinated views and exploration history help researchers compare design
-            scenarios, understand trade-offs, and make more defensible decisions before collecting data.
-          </p>
-          <div class="project-resources">
-            <a href="https://www.youtube.com/watch?v=eUZoZGwk7AU" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube"></i> Video
-            </a>
-            <a href="https://argus.shinyapps.io/project-argus/" target="_blank" rel="noopener">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo
-            </a>
-            <a href="https://arxiv.org/abs/2009.07564" target="_blank" rel="noopener">
-              <i class="fa-regular fa-file-pdf"></i> Preprint
-            </a>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus</a></h3>
+            <p>
+              Conventional power-analysis tools return a sample-size calculation after researchers specify fixed
+              assumptions, offering little support for reasoning about uncertain design choices. Argus instead
+              simulates experimental outcomes and visualizes how power changes with sample size, effect size,
+              replications, order effects, and other confounds. Its coordinated views and exploration history help
+              researchers compare design scenarios, understand trade-offs, and make more defensible decisions before
+              collecting data.
+            </p>
+            <div class="project-resources">
+              <a href="https://www.youtube.com/watch?v=eUZoZGwk7AU" target="_blank" rel="noopener">
+                <i class="fa-brands fa-youtube"></i> Video
+              </a>
+              <a href="https://argus.shinyapps.io/project-argus/" target="_blank" rel="noopener">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo
+              </a>
+              <a href="https://arxiv.org/abs/2009.07564" target="_blank" rel="noopener">
+                <i class="fa-regular fa-file-pdf"></i> Preprint
+              </a>
+            </div>
           </div>
+          <figure class="project-media">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/eUZoZGwk7AU"
+              title="Argus video demonstration"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <figcaption>Argus — interactive a priori power analysis.</figcaption>
+          </figure>
         </div>
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1145/3399715.3399913">RegLine</a></h3>
-          <p>
-            Refining even a simple linear regression model requires repeated transformations, residual checks,
-            assumption verification, and comparisons with earlier models - a process that is especially difficult for
-            novices. RegLine integrates these activities into an iterative visual workspace. It exposes the effects of
-            transformations and influential observations, links residual and assumption diagnostics, and preserves
-            alternative models so users can compare how each refinement changes validity and accuracy.
-          </p>
-          <div class="project-resources">
-            <a href="https://www.youtube.com/watch?v=6cAxCflds3A" target="_blank" rel="noopener">
-              <i class="fa-brands fa-youtube"></i> Video
-            </a>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1145/3399715.3399913">RegLine</a></h3>
+            <p>
+              Refining even a simple linear regression model requires repeated transformations, residual checks,
+              assumption verification, and comparisons with earlier models - a process that is especially difficult for
+              novices. RegLine integrates these activities into an iterative visual workspace. It exposes the effects of
+              transformations and influential observations, links residual and assumption diagnostics, and preserves
+              alternative models so users can compare how each refinement changes validity and accuracy.
+            </p>
+            <div class="project-resources">
+              <a href="https://www.youtube.com/watch?v=6cAxCflds3A" target="_blank" rel="noopener">
+                <i class="fa-brands fa-youtube"></i> Video
+              </a>
+            </div>
           </div>
+          <figure class="project-media">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/6cAxCflds3A"
+              title="RegLine video demonstration"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <figcaption>RegLine — visual support for refining regression models.</figcaption>
+          </figure>
         </div>
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1145/3399715.3399906">Structured time-series exploration</a></h3>
-          <p>
-            Evaluating time-series forecasts requires moving among charts of aggregate accuracy, cross-validation folds,
-            and predicted versus observed values, but conventional tools leave this sequence unstructured. This project
-            constructs a navigation graph from the syntax and semantics of the charts and exposes relevant paths through
-            a contextual menu. The approach helps analysts systematically uncover relationships among metrics, folds,
-            and forecasts instead of examining disconnected plots in an arbitrary order.
-          </p>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1145/3399715.3399906">Structured time-series exploration</a></h3>
+            <p>
+              Evaluating time-series forecasts requires moving among charts of aggregate accuracy, cross-validation
+              folds, and predicted versus observed values, but conventional tools leave this sequence unstructured. This
+              project constructs a navigation graph from the syntax and semantics of the charts and exposes relevant
+              paths through a contextual menu. The approach helps analysts systematically uncover relationships among
+              metrics, folds, and forecasts instead of examining disconnected plots in an arbitrary order.
+            </p>
+          </div>
+          <figure class="project-media">
+            <img
+              src="{{ '/assets/img/projects/structured-time-series.jpg' | relative_url }}"
+              alt="Structured navigation for time-series forecasts"
+            >
+            <figcaption>Structured navigation connects forecasts, folds, and evaluation views.</figcaption>
+          </figure>
         </div>
       </div>
     </div>
-    <aside class="direction-media" aria-label="Visual analytics project videos">
-      <figure class="media-item">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/eUZoZGwk7AU"
-          title="Argus video demonstration"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <figcaption>Argus — interactive a priori power analysis.</figcaption>
-      </figure>
-      <figure class="media-item">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/6cAxCflds3A"
-          title="RegLine video demonstration"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <figcaption>RegLine — visual support for refining regression models.</figcaption>
-      </figure>
-    </aside>
   </div>
 </section>
 
@@ -357,31 +358,45 @@ nav_order: 3
       </p>
       <div class="project-list">
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1016/j.entcom.2018.10.001">Exercise-linked game rewards</a></h3>
-          <p>
-            Traditional exergames require people to exercise while playing, which can limit accessibility and long-term
-            use. This project studies pervasive accumulated context exergames, where physical activity completed earlier
-            is translated into rewards in a later sedentary game. A controlled study shows that explicitly linking
-            exercise performance to game rewards can improve motivation and increase exercise intensity, suggesting a
-            flexible way to connect everyday activity tracking with engaging play.
-          </p>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1016/j.entcom.2018.10.001">Exercise-linked game rewards</a></h3>
+            <p>
+              Traditional exergames require people to exercise while playing, which can limit accessibility and
+              long-term use. This project studies pervasive accumulated context exergames, where physical activity
+              completed earlier is translated into rewards in a later sedentary game. A controlled study shows that
+              explicitly linking exercise performance to game rewards can improve motivation and increase exercise
+              intensity, suggesting a flexible way to connect everyday activity tracking with engaging play.
+            </p>
+          </div>
+          <figure class="project-media">
+            <img
+              src="{{ '/assets/img/projects/exercise-linked-rewards.jpg' | relative_url }}"
+              alt="Exercise performance linked to game rewards"
+            >
+            <figcaption>Physical activity is translated into rewards that influence subsequent game play.</figcaption>
+          </figure>
         </div>
         <div class="project-item">
-          <h3><a href="https://doi.org/10.1145/3656650.3656662">Multi-state uncertainty visualization</a></h3>
-          <p>
-            A single statistical chart exposes only part of an uncertain distribution and may support one reasoning task
-            while making another difficult. Multi-state visualizations let people switch between complementary
-            representations, pairing error bars with violin plots, quantile dot plots, or hypothetical outcome plots. A
-            crowdsourced experiment shows that access to multiple coordinated states improves both the accuracy and
-            confidence of probability estimates, informing the design of uncertainty displays for decision-making.
-          </p>
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1145/3656650.3656662">Multi-state uncertainty visualization</a></h3>
+            <p>
+              A single statistical chart exposes only part of an uncertain distribution and may support one reasoning
+              task while making another difficult. Multi-state visualizations let people switch between complementary
+              representations, pairing error bars with violin plots, quantile dot plots, or hypothetical outcome plots.
+              A crowdsourced experiment shows that access to multiple coordinated states improves both the accuracy and
+              confidence of probability estimates, informing the design of uncertainty displays for decision-making.
+            </p>
+          </div>
+          <figure class="project-media">
+            <img
+              src="{{ '/assets/img/projects/multi-state-uncertainty.jpg' | relative_url }}"
+              alt="Multi-state uncertainty visualization designs"
+            >
+            <figcaption>Complementary visualization states support different uncertainty judgments.</figcaption>
+          </figure>
         </div>
       </div>
     </div>
-    <figure class="direction-visual">
-      <img src="{{ '/assets/img/projects/human-performance.png' | relative_url }}" alt="Exercise performance linked to game rewards">
-      <figcaption>Physical activity is translated into rewards that influence subsequent game play.</figcaption>
-    </figure>
   </div>
 </section>
 
