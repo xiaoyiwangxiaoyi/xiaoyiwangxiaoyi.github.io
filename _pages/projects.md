@@ -72,6 +72,36 @@ nav_order: 3
     line-height: 1.55;
   }
 
+  .project-resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.55rem;
+  }
+
+  .project-resources a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.2rem 0.55rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-text-color);
+    font-size: 0.76rem;
+    font-weight: 500;
+    line-height: 1.35;
+    text-decoration: none;
+  }
+
+  .project-resources a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+  }
+
+  .project-resources i {
+    font-size: 0.8rem;
+  }
+
   .direction-visual {
     margin: 0;
     overflow: hidden;
@@ -147,6 +177,14 @@ nav_order: 3
             compare valence, arousal, and dominance trajectories in real and LLM-generated dialogues. The results reveal
             important gaps in emotional variability, reactivity, regulation, and counselor-client alignment.
           </p>
+          <div class="project-resources">
+            <a href="{{ '/assets/img/projects/realcbt-emotional-arc.png' | relative_url }}" target="_blank">
+              <i class="fa-solid fa-diagram-project"></i> Method figure
+            </a>
+            <a href="https://gitlab.com/xiaoyi.wang/realcbt-dataset" target="_blank" rel="noopener">
+              <i class="fa-solid fa-database"></i> Dataset
+            </a>
+          </div>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a></h3>
@@ -157,6 +195,11 @@ nav_order: 3
             Case studies in fictional and therapy dialogue demonstrate how the system supports multi-level,
             context-aware interpretation rather than treating personality assessment as a single prediction.
           </p>
+          <div class="project-resources">
+            <a href="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}" target="_blank">
+              <i class="fa-regular fa-image"></i> System overview
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -186,6 +229,17 @@ nav_order: 3
             effects, and other confounds. Its coordinated views and exploration history help researchers compare design
             scenarios, understand trade-offs, and make more defensible decisions before collecting data.
           </p>
+          <div class="project-resources">
+            <a href="https://www.youtube.com/watch?v=eUZoZGwk7AU" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube"></i> Video
+            </a>
+            <a href="https://argus.shinyapps.io/project-argus/" target="_blank" rel="noopener">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live demo
+            </a>
+            <a href="https://arxiv.org/abs/2009.07564" target="_blank" rel="noopener">
+              <i class="fa-regular fa-file-pdf"></i> Preprint
+            </a>
+          </div>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1145/3399715.3399913">RegLine</a></h3>
@@ -196,6 +250,11 @@ nav_order: 3
             transformations and influential observations, links residual and assumption diagnostics, and preserves
             alternative models so users can compare how each refinement changes validity and accuracy.
           </p>
+          <div class="project-resources">
+            <a href="https://www.youtube.com/watch?v=6cAxCflds3A" target="_blank" rel="noopener">
+              <i class="fa-brands fa-youtube"></i> Video
+            </a>
+          </div>
         </div>
         <div class="project-item">
           <h3><a href="https://doi.org/10.1145/3399715.3399906">Structured time-series exploration</a></h3>
