@@ -301,8 +301,8 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         <li>
           <time class="news-date" datetime="2025-10">October 2025</time>
           <span>
-            <a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a> was accepted for publication in
-            <em>Computers &amp; Graphics</em>.
+            Our paper <a href="https://doi.org/10.1016/j.cag.2025.104452">PersonalityLens</a> was accepted for
+            publication in <em>Computers &amp; Graphics</em>.
           </span>
         </li>
         <li>
