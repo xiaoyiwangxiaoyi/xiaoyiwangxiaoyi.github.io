@@ -217,16 +217,18 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
       <li>
         <time class="news-date" datetime="2026-06">June 2026</time>
         <span>
-          <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> was accepted for publication in the
-          <em>International Journal of Human-Computer Studies</em>.
+          Our paper <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> was accepted for publication in
+          the <em>International Journal of Human-Computer Studies</em>.
         </span>
       </li>
       <li>
         <time class="news-date" datetime="2025-11">November 2025</time>
         <span>
           Attended <a href="https://2025.emnlp.org/">EMNLP 2025</a> in Suzhou, where our paper
-          <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">“Feel the Difference?”</a> appeared in
-          <em>Findings of EMNLP</em>.
+          <a href="https://doi.org/10.18653/v1/2025.findings-emnlp.1089">
+            “Feel the Difference? A Comparative Analysis of Emotional Arcs in Real and LLM-generated CBT Sessions”
+          </a>
+          appeared in <em>Findings of EMNLP</em>.
         </span>
       </li>
     </ul>
