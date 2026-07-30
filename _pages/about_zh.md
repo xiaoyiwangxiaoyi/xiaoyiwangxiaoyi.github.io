@@ -268,11 +268,11 @@ latest_posts:
 <p class="research-interests-title">主要研究方向</p>
 
 <ul class="research-directions-grid">
-  <li>🤖 大语言模型与智能体（LLMs &amp; AI Agents）</li>
-  <li>🧠 可解释人工智能（Explainable AI）</li>
-  <li>💬 人工智能与心理健康（AI for Mental Health）</li>
-  <li>🖥️ 人机交互与智能系统（Human–Computer Interaction &amp; Intelligent Systems）</li>
-  <li>🥽 虚拟现实与沉浸式交互（Virtual &amp; Mixed Reality）</li>
+  <li>🤖 大语言模型与智能体</li>
+  <li>🧠 可解释人工智能</li>
+  <li>💬 人工智能与心理健康</li>
+  <li>🖥️ 人机交互与智能系统</li>
+  <li>🥽 虚拟现实与沉浸式交互</li>
 </ul>
 
 <div class="home-sections">
