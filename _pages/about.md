@@ -163,6 +163,11 @@ latest_posts:
     white-space: nowrap;
   }
 
+  .news-detail-lines {
+    display: grid;
+    gap: 0.25rem;
+  }
+
   .earlier-news {
     margin-top: 0.75rem;
   }
@@ -223,10 +228,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
       </li>
       <li>
         <time class="news-date" datetime="2026-03">March 2026</time>
-        <span>
-          Attended the 7th China Brain Science and Neuromodulation Technology Development Summit Forum and a national
-          key R&amp;D project workshop on non-invasive brain-computer interface equipment in Wuhan, and visited Wuhan
-          Yiruide Medical Equipment New Technology Co., Ltd.
+        <span class="news-detail-lines">
+          <span>Attended the 7th China Brain Science and Neuromodulation Technology Development Summit Forum.</span>
+          <span>Attended a national key R&amp;D project workshop on non-invasive brain-computer interface equipment.</span>
+          <span>Visited Wuhan Yiruide Medical Equipment New Technology Co., Ltd.</span>
         </span>
       </li>
     </ul>
@@ -270,7 +275,7 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         <li>
           <time class="news-date" datetime="2025-10">October 2025</time>
           <span>
-            Participated in the
+            Attended the
             <a href="https://www.globalcea.org/global-ce-day-week">
               10th Global Clinical Engineering Day Celebration
             </a>
