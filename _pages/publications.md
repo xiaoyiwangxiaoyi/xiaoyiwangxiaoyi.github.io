@@ -66,9 +66,16 @@ nav_order: 2
 <script>
   (() => {
     const publicationRankings = {
+      "10.1145/3399715.3399913": "CCF-C · 人机交互国际重要会议",
+      11477004: "CCF-B · 情感计算国际顶级期刊",
+      SMEDDINCK201920: "游戏与娱乐计算国际期刊",
       WANG2026103853: "CCF-A · 人机交互国际顶级期刊",
       "wang-etal-2025-feel": "CCF-B · 自然语言处理国际顶级会议",
+      WANG2025104452: "CCF-C · 计算机图形学国际重要期刊",
       wangArgusInteractivePriori2021: "CCF-A · 信息可视化国际顶级期刊",
+      wangMultistateVisualizationsDescriptive2024: "CCF-C · 人机交互国际重要会议",
+      wangVisualExplorationTimeSeries2020: "CCF-C · 人机交互国际重要会议",
+      ZENG2026115917: "CCF-C · 人工智能国际重要期刊",
     };
 
     const enhancePublicationLinks = () => {
