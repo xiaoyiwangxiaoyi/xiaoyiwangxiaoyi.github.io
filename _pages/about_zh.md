@@ -307,7 +307,7 @@ latest_posts:
         <li>
           <time class="news-date" datetime="2025-10">2025 年 10 月</time>
           <span>
-            参加<a href="https://www.globalcea.org/global-ce-day-week">第十届全球临床工程日庆祝活动</a>及国际临床工程论坛。
+            赴深圳参加<a href="https://www.globalcea.org/global-ce-day-week">第十届全球临床工程日庆祝活动</a>及国际临床工程论坛。
           </span>
         </li>
       </ul>
