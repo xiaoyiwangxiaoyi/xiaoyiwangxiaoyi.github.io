@@ -5,6 +5,8 @@ permalink: /zh/
 nav: true
 nav_order: 4
 lang: zh-CN
+sitemap: false
+robots: noindex, follow
 subtitle: 汕头大学计算机系 · 助理教授
 
 profile:
