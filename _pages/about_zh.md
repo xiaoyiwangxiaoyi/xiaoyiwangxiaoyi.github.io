@@ -5,8 +5,13 @@ permalink: /zh/
 nav: true
 nav_order: 4
 lang: zh-CN
-sitemap: false
-robots: noindex, follow
+sitemap: true
+seo_title: 王晓意｜汕头大学助理教授｜人机交互与人工智能
+description: 王晓意，汕头大学计算机系助理教授，研究方向包括人机交互、以人为中心的人工智能、大语言模型、可解释人工智能、心理健康 AI 与虚拟和混合现实。
+alternate_languages:
+  en: https://xiaoyiwang.org/
+  zh-Hans: https://xiaoyiwang.org/zh/
+  x-default: https://xiaoyiwang.org/
 subtitle: 汕头大学计算机系 · 助理教授
 
 profile:

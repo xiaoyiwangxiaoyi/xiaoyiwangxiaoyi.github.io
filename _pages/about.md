@@ -3,6 +3,13 @@ layout: about
 title: About
 permalink: /
 sitemap: true
+lang: en
+seo_title: Xiaoyi Wang | Assistant Professor in HCI and Human-Centered AI
+description: Xiaoyi Wang is an Assistant Professor at Shantou University researching human–computer interaction, human-centered AI, large language models, explainable AI, and immersive systems.
+alternate_languages:
+  en: https://xiaoyiwang.org/
+  zh-Hans: https://xiaoyiwang.org/zh/
+  x-default: https://xiaoyiwang.org/
 subtitle: Assistant Professor · Department of Computer Science · Shantou University
 
 profile:
