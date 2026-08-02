@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+sitemap: true
 subtitle: Assistant Professor · Department of Computer Science · Shantou University
 
 profile:

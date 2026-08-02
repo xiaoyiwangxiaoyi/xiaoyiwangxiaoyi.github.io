@@ -3,6 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Publications in human-centered AI, interactive visualization, behavioral modeling, and immersive systems.
+sitemap: true
 nav: true
 nav_order: 2
 ---

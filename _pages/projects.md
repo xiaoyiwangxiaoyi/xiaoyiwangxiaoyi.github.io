@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: Research directions and representative systems at the intersection of HCI, AI, and visual analytics.
+sitemap: true
 nav: true
 nav_order: 3
 ---
