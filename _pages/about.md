@@ -263,6 +263,16 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
     <h2>News</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-08">August 2026</time>
+        <span>
+          Attended the
+          <a href="https://hhme.ccf.org.cn/landing.html">
+            2nd China Human-Machine Computing Conference and 22nd Harmonious Human-Machine Environment Joint Conference
+          </a>
+          (HMCC 2026 &amp; HHME 2026) in Changsha.
+        </span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-07">July 2026</time>
         <span>
           Attended the

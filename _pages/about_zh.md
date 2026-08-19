@@ -288,6 +288,13 @@ latest_posts:
     <h2>最新动态</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-08">2026 年 8 月</time>
+        <span>
+          赴长沙参加<a href="https://hhme.ccf.org.cn/landing.html">第二届中国人机计算大会暨第二十二届和谐人机环境联合学术会议</a
+          >（HMCC 2026 &amp; HHME 2026）。
+        </span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-07">2026 年 7 月</time>
         <span>
           赴贵阳参加<a href="https://chinavis.org/2026/en/">第十三届中国可视化与可视分析大会</a>（ChinaVis 2026）。
