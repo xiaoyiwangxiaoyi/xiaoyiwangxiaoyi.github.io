@@ -307,18 +307,18 @@ latest_posts:
           <em>International Journal of Human-Computer Studies</em> 接收发表。
         </span>
       </li>
-      <li>
-        <time class="news-date" datetime="2026-03">2026 年 3 月</time>
-        <span class="news-detail-lines">
-          <span>参加第七届中国脑科学与神经调控技术发展高峰论坛。</span>
-          <span>参加无创脑机接口设备国家重点研发计划项目专题研讨会。</span>
-          <span>参访武汉依瑞德医疗设备新技术有限公司。</span>
-        </span>
-      </li>
     </ul>
     <details class="earlier-news">
       <summary>更早动态</summary>
       <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2026-03">2026 年 3 月</time>
+          <span class="news-detail-lines">
+            <span>参加第七届中国脑科学与神经调控技术发展高峰论坛。</span>
+            <span>参加无创脑机接口设备国家重点研发计划项目专题研讨会。</span>
+            <span>参访武汉依瑞德医疗设备新技术有限公司。</span>
+          </span>
+        </li>
         <li>
           <time class="news-date" datetime="2025-11">2025 年 11 月</time>
           <span>在汕头参加<a href="https://psc2025.stu.edu.cn/home">第二十四届太平洋科学大会</a>（PSC-24）。</span>

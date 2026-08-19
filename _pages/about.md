@@ -287,18 +287,18 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           the <em>International Journal of Human-Computer Studies</em>.
         </span>
       </li>
-      <li>
-        <time class="news-date" datetime="2026-03">March 2026</time>
-        <span class="news-detail-lines">
-          <span>Attended the 7th China Brain Science and Neuromodulation Technology Development Summit Forum.</span>
-          <span>Attended a national key R&amp;D project workshop on non-invasive brain-computer interface equipment.</span>
-          <span>Visited Wuhan Yiruide Medical Equipment New Technology Co., Ltd.</span>
-        </span>
-      </li>
     </ul>
     <details class="earlier-news">
       <summary>Earlier news</summary>
       <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2026-03">March 2026</time>
+          <span class="news-detail-lines">
+            <span>Attended the 7th China Brain Science and Neuromodulation Technology Development Summit Forum.</span>
+            <span>Attended a national key R&amp;D project workshop on non-invasive brain-computer interface equipment.</span>
+            <span>Visited Wuhan Yiruide Medical Equipment New Technology Co., Ltd.</span>
+          </span>
+        </li>
         <li>
           <time class="news-date" datetime="2025-11">November 2025</time>
           <span>
