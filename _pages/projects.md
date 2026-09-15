@@ -366,7 +366,11 @@ nav_order: 3
       <div class="project-list">
         <div id="saccade-probes" class="project-item">
           <div class="project-copy">
-            <h3>Prosaccades as lightweight workload probes</h3>
+            <h3>
+              <a href="{{ '/publications/#wang2026Prosaccades' | relative_url }}">
+                Prosaccades as lightweight workload probes
+              </a>
+            </h3>
             <p>
               Measuring mental workload in mixed-reality teleoperation is important for adapting interfaces before an
               operator becomes overloaded, but conventional antisaccade tests are difficult and disruptive. This
