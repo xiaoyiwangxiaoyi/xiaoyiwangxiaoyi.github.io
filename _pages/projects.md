@@ -152,18 +152,19 @@ nav_order: 3
 
 <p class="project-intro">
   Our research develops human-centered AI methods and interactive systems that help people understand intelligent
-  technologies, make better decisions, and improve human performance. The projects below are organized into three
+  technologies, make better decisions, and improve human performance. The projects below are organized into two
   connected directions.
 </p>
 
-<section class="research-direction">
+<section id="human-centered-intelligent-systems" class="research-direction">
   <div class="direction-grid">
     <div>
       <div class="direction-number">Direction 01</div>
-      <h2>AI for Mental Health and Human Understanding</h2>
+      <h2>Human-Centered Intelligent Systems</h2>
       <p class="direction-summary">
-        We combine large language models, behavioral science, and visual analytics to study human behavior and build
-        AI systems that support responsible interpretation, reflection, and professional training.
+        We combine interactive systems, behavioral science, visual analytics, and AI to understand human behavior and
+        support mental health, reflection, and professional training. The emphasis is on making intelligent systems
+        interpretable, useful, and responsive to human needs.
       </p>
       <div class="project-list">
         <div class="project-item">
@@ -253,14 +254,15 @@ nav_order: 3
   </div>
 </section>
 
-<section class="research-direction">
+<section id="visual-analytics-immersive-interaction" class="research-direction">
   <div class="direction-grid">
     <div>
       <div class="direction-number">Direction 02</div>
-      <h2>Visual Analytics for Model Reasoning</h2>
+      <h2>Visual Analytics and Immersive Interaction</h2>
       <p class="direction-summary">
-        We design interactive visualizations that make statistical models, assumptions, uncertainty, and performance
-        easier to inspect - particularly for people without advanced statistical expertise.
+        We design visual and immersive interfaces that make models, uncertainty, and human performance easier to
+        understand. This direction connects visual analytics for reasoning and decision-making with mixed reality, eye
+        tracking, cognitive workload, and the study of interaction in demanding environments.
       </p>
       <div class="project-list">
         <div class="project-item">
@@ -343,22 +345,7 @@ nav_order: 3
             <figcaption>Structured navigation connects forecasts, folds, and evaluation views.</figcaption>
           </figure>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="research-direction">
-  <div class="direction-grid">
-    <div>
-      <div class="direction-number">Direction 03</div>
-      <h2>Human Performance, Motivation, and Decision-Making</h2>
-      <p class="direction-summary">
-        We investigate how interactive systems and representations influence motivation, confidence, physical activity,
-        and judgment.
-      </p>
-      <div class="project-list">
-        <div class="project-item">
+        <div id="saccade-probes" class="project-item">
           <div class="project-copy">
             <h3>Prosaccades as lightweight workload probes</h3>
             <p>

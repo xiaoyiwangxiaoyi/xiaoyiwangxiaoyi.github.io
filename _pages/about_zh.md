@@ -121,7 +121,7 @@ latest_posts:
 
   .research-highlights {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.15rem;
   }
 
@@ -372,29 +372,20 @@ latest_posts:
           <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor 可视分析界面">
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">人工智能与心理健康</a></h3>
-          <p>研发大语言模型辅助系统，用于理解心理咨询对话、支持咨询师培训，并评估合成对话的情感真实性。</p>
+          <h3><a href="{{ '/projects/#human-centered-intelligent-systems' | relative_url }}">以人为中心的智能交互系统</a></h3>
+          <p>研发可交互、可理解的智能系统，用于理解人类行为、支持心理健康与专业训练，并帮助人们负责任地使用人工智能。</p>
         </div>
       </article>
       <article class="research-highlight">
-        <a class="research-highlight-image" href="{{ '/projects/' | relative_url }}" aria-label="了解可解释与交互式人工智能项目">
+        <a class="research-highlight-image" href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}" aria-label="了解可视分析与沉浸式交互项目">
           <img
-            src="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
-            alt="PersonalityLens 交互式分析界面"
+            src="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
+            alt="采用眼动工作负荷探测的混合现实远程操控实验"
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">可解释与交互式人工智能</a></h3>
-          <p>通过交互方法将人工智能的输出与对话语境、人类行为及成熟理论相连接，帮助人们理解并负责任地使用人工智能。</p>
-        </div>
-      </article>
-      <article class="research-highlight">
-        <a class="research-highlight-image" href="{{ '/projects/' | relative_url }}" aria-label="了解可视分析与人类决策项目">
-          <img src="{{ '/assets/img/projects/visual-model-reasoning.png' | relative_url }}" alt="Argus 交互式功效分析界面">
-        </a>
-        <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">可视分析与人类决策</a></h3>
-          <p>开发支持统计模型、实验设计、不确定性与人类绩效推理的可视化工具。</p>
+          <h3><a href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}">可视分析与沉浸式交互</a></h3>
+          <p>通过可视化与沉浸式方法理解模型和不确定性、支持决策，并结合混合现实与眼动追踪研究人类绩效。</p>
         </div>
       </article>
     </div>
@@ -404,6 +395,12 @@ latest_posts:
   <section class="home-section">
     <h2>代表性论文</h2>
     <ul class="selected-publications">
+      <li>
+        <a href="{{ '/projects/#saccade-probes' | relative_url }}">
+          Prosaccades as Lightweight Workload Probes in MR Teleoperation
+        </a>
+        <span class="publication-meta">International Journal of Human-Computer Studies，2026 · 已接收</span>
+      </li>
       <li>
         <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">
           MIAdvisor: Enhancing Counselor Competence in Motivational Interviewing through Visual Analytics

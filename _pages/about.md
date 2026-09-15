@@ -99,7 +99,7 @@ latest_posts:
 
   .research-highlights {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.15rem;
   }
 
@@ -362,10 +362,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor visual analytics interface">
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">AI for Mental Health</a></h3>
+          <h3><a href="{{ '/projects/#human-centered-intelligent-systems' | relative_url }}">Human-Centered Intelligent Systems</a></h3>
           <p>
-            LLM-assisted systems for understanding therapy conversations, supporting counselor training, and evaluating
-            the emotional fidelity of synthetic dialogue.
+            Interactive and interpretable systems for understanding human behavior, supporting mental health and
+            professional training, and helping people use AI responsibly.
           </p>
         </div>
       </article>
@@ -373,37 +373,18 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
         <a
           class="research-highlight-image"
           href="{{ '/projects/' | relative_url }}"
-          aria-label="Explore Explainable and Interactive AI projects"
+          aria-label="Explore Visual Analytics and Immersive Interaction projects"
         >
           <img
-            src="{{ '/assets/img/projects/personalitylens-overview.png' | relative_url }}"
-            alt="PersonalityLens interactive analysis interface"
+            src="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
+            alt="MR teleoperation experiment using eye-tracking workload probes"
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">Explainable and Interactive AI</a></h3>
+          <h3><a href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}">Visual Analytics and Immersive Interaction</a></h3>
           <p>
-            Interactive methods that connect AI outputs to dialogue context, human behavior, and established theories so
-            people can interpret and use them responsibly.
-          </p>
-        </div>
-      </article>
-      <article class="research-highlight">
-        <a
-          class="research-highlight-image"
-          href="{{ '/projects/' | relative_url }}"
-          aria-label="Explore Visual Analytics and Human Decision-Making projects"
-        >
-          <img
-            src="{{ '/assets/img/projects/visual-model-reasoning.png' | relative_url }}"
-            alt="Argus interactive power analysis interface"
-          >
-        </a>
-        <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/' | relative_url }}">Visual Analytics and Human Decision-Making</a></h3>
-          <p>
-            Visual tools for reasoning about statistical models, experimental design, uncertainty, and human
-            performance.
+            Visual and immersive methods for reasoning about models and uncertainty, supporting decision-making, and
+            understanding human performance through mixed reality and eye tracking.
           </p>
         </div>
       </article>
@@ -414,6 +395,12 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
   <section class="home-section">
     <h2>Selected Publications</h2>
     <ul class="selected-publications">
+      <li>
+        <a href="{{ '/projects/#saccade-probes' | relative_url }}">
+          Prosaccades as Lightweight Workload Probes in MR Teleoperation
+        </a>
+        <span class="publication-meta">International Journal of Human-Computer Studies, 2026 · Accepted</span>
+      </li>
       <li>
         <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">
           MIAdvisor: Enhancing Counselor Competence in Motivational Interviewing through Visual Analytics
