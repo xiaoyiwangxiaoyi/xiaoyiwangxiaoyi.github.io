@@ -36,9 +36,6 @@ GEM
     al_comments (1.0.0)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
-    al_cookie (1.0.0)
-      jekyll (>= 3.9, < 5.0)
-      liquid (>= 4.0, < 6.0)
     al_ext_posts (1.0.3)
       feedjira (>= 3.2, < 5.0)
       httparty (>= 0.18, < 1.0)
@@ -349,7 +346,6 @@ DEPENDENCIES
   al_charts (= 1.0.1)
   al_citations (= 1.0.1)
   al_comments (= 1.0.0)
-  al_cookie (= 1.0.0)
   al_ext_posts (= 1.0.3)
   al_folio_bootstrap_compat (= 1.0.0)
   al_folio_core (= 1.0.12)
@@ -394,7 +390,6 @@ CHECKSUMS
   al_charts (1.0.1) sha256=ce26374c2b1159ae0d65dc7999730be700a9ee486002ae14cb480eef70580885
   al_citations (1.0.1) sha256=308cfd4cd73c8dc6d24c0214f424b61606b3a393bdb899394fce80dd647cba59
   al_comments (1.0.0) sha256=1da87a29b55e4d9fd62d380200af9671f10ae4a84e3259828588498d8f3210e5
-  al_cookie (1.0.0) sha256=0b36310f84c88e758fb18f2217e8fca8a282b8bd7f5ee9793c6d38ca0cc97348
   al_ext_posts (1.0.3) sha256=c4956d36071958d30de14f6c368863d3e4190dfe312dba08ff79aa685292420d
   al_folio_bootstrap_compat (1.0.0) sha256=c210ff3087f17344dc864fa9594c737e947b23c6cae9fab3dbd37a87090b98a8
   al_folio_core (1.0.12) sha256=1536807fa257c9e8ca60160dc45414d3792afcf6b674518d8583e783336f324e
