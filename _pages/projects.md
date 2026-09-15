@@ -156,15 +156,15 @@ nav_order: 3
   connected directions.
 </p>
 
-<section id="human-centered-intelligent-systems" class="research-direction">
+<section id="visual-analytics-human-centered-ai" class="research-direction">
   <div class="direction-grid">
     <div>
       <div class="direction-number">Direction 01</div>
-      <h2>Human-Centered Intelligent Systems</h2>
+      <h2>Visual Analytics and Human-Centered AI</h2>
       <p class="direction-summary">
-        We combine interactive systems, behavioral science, visual analytics, and AI to understand human behavior and
-        support mental health, reflection, and professional training. The emphasis is on making intelligent systems
-        interpretable, useful, and responsive to human needs.
+        We design interactive visual systems that help people understand models, data, AI outputs, and human behavior.
+        This direction connects model reasoning and uncertainty with responsible AI, mental health, professional
+        training, and informed decision-making.
       </p>
       <div class="project-list">
         <div class="project-item">
@@ -249,22 +249,6 @@ nav_order: 3
             <figcaption>PersonalityLens — interactive, context-aware personality analysis.</figcaption>
           </figure>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="visual-analytics-immersive-interaction" class="research-direction">
-  <div class="direction-grid">
-    <div>
-      <div class="direction-number">Direction 02</div>
-      <h2>Visual Analytics and Immersive Interaction</h2>
-      <p class="direction-summary">
-        We design visual and immersive interfaces that make models, uncertainty, and human performance easier to
-        understand. This direction connects visual analytics for reasoning and decision-making with mixed reality, eye
-        tracking, cognitive workload, and the study of interaction in demanding environments.
-      </p>
-      <div class="project-list">
         <div class="project-item">
           <div class="project-copy">
             <h3><a href="https://doi.org/10.1109/TVCG.2020.3028894">Argus</a></h3>
@@ -345,6 +329,41 @@ nav_order: 3
             <figcaption>Structured navigation connects forecasts, folds, and evaluation views.</figcaption>
           </figure>
         </div>
+        <div class="project-item">
+          <div class="project-copy">
+            <h3><a href="https://doi.org/10.1145/3656650.3656662">Multi-state uncertainty visualization</a></h3>
+            <p>
+              A single statistical chart exposes only part of an uncertain distribution and may support one reasoning
+              task while making another difficult. Multi-state visualizations let people switch between complementary
+              representations, pairing error bars with violin plots, quantile dot plots, or hypothetical outcome plots.
+              A crowdsourced experiment shows that access to multiple coordinated states improves both the accuracy and
+              confidence of probability estimates, informing the design of uncertainty displays for decision-making.
+            </p>
+          </div>
+          <figure class="project-media">
+            <img
+              src="{{ '/assets/img/projects/multi-state-uncertainty.jpg' | relative_url }}"
+              alt="Multi-state uncertainty visualization designs"
+            >
+            <figcaption>Complementary visualization states support different uncertainty judgments.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="interactive-systems-human-performance" class="research-direction">
+  <div class="direction-grid">
+    <div>
+      <div class="direction-number">Direction 02</div>
+      <h2>Interactive Systems and Human Performance</h2>
+      <p class="direction-summary">
+        We investigate how interactive and immersive technologies shape cognitive workload, attention, motivation, and
+        performance. This direction includes mixed reality, eye tracking, teleoperation, and systems that connect
+        interaction design with human capabilities and experience.
+      </p>
+      <div class="project-list">
         <div id="saccade-probes" class="project-item">
           <div class="project-copy">
             <h3>Prosaccades as lightweight workload probes</h3>
@@ -394,25 +413,6 @@ nav_order: 3
               alt="Exercise performance linked to game rewards"
             >
             <figcaption>Physical activity is translated into rewards that influence subsequent game play.</figcaption>
-          </figure>
-        </div>
-        <div class="project-item">
-          <div class="project-copy">
-            <h3><a href="https://doi.org/10.1145/3656650.3656662">Multi-state uncertainty visualization</a></h3>
-            <p>
-              A single statistical chart exposes only part of an uncertain distribution and may support one reasoning
-              task while making another difficult. Multi-state visualizations let people switch between complementary
-              representations, pairing error bars with violin plots, quantile dot plots, or hypothetical outcome plots.
-              A crowdsourced experiment shows that access to multiple coordinated states improves both the accuracy and
-              confidence of probability estimates, informing the design of uncertainty displays for decision-making.
-            </p>
-          </div>
-          <figure class="project-media">
-            <img
-              src="{{ '/assets/img/projects/multi-state-uncertainty.jpg' | relative_url }}"
-              alt="Multi-state uncertainty visualization designs"
-            >
-            <figcaption>Complementary visualization states support different uncertainty judgments.</figcaption>
           </figure>
         </div>
       </div>

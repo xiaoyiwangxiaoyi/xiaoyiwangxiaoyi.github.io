@@ -372,20 +372,20 @@ latest_posts:
           <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor 可视分析界面">
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#human-centered-intelligent-systems' | relative_url }}">以人为中心的智能交互系统</a></h3>
-          <p>研发可交互、可理解的智能系统，用于理解人类行为、支持心理健康与专业训练，并帮助人们负责任地使用人工智能。</p>
+          <h3><a href="{{ '/projects/#visual-analytics-human-centered-ai' | relative_url }}">可视分析与以人为中心的人工智能</a></h3>
+          <p>通过交互式可视化理解模型、数据与人类行为，支持负责任的人工智能、心理健康、专业训练与科学决策。</p>
         </div>
       </article>
       <article class="research-highlight">
-        <a class="research-highlight-image" href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}" aria-label="了解可视分析与沉浸式交互项目">
+        <a class="research-highlight-image" href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}" aria-label="了解交互系统与人类绩效项目">
           <img
             src="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
             alt="采用眼动工作负荷探测的混合现实远程操控实验"
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}">可视分析与沉浸式交互</a></h3>
-          <p>通过可视化与沉浸式方法理解模型和不确定性、支持决策，并结合混合现实与眼动追踪研究人类绩效。</p>
+          <h3><a href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}">交互系统与人类绩效</a></h3>
+          <p>通过交互与沉浸式技术研究混合现实及日常情境中的认知负荷、眼动行为、动机与人类绩效。</p>
         </div>
       </article>
     </div>

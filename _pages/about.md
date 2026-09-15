@@ -362,10 +362,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           <img src="{{ '/assets/img/projects/ai-mental-health.png' | relative_url }}" alt="MIAdvisor visual analytics interface">
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#human-centered-intelligent-systems' | relative_url }}">Human-Centered Intelligent Systems</a></h3>
+          <h3><a href="{{ '/projects/#visual-analytics-human-centered-ai' | relative_url }}">Visual Analytics and Human-Centered AI</a></h3>
           <p>
-            Interactive and interpretable systems for understanding human behavior, supporting mental health and
-            professional training, and helping people use AI responsibly.
+            Interactive visual systems for understanding models, data, and human behavior, supporting responsible AI,
+            mental health, professional training, and informed decision-making.
           </p>
         </div>
       </article>
@@ -381,10 +381,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#visual-analytics-immersive-interaction' | relative_url }}">Visual Analytics and Immersive Interaction</a></h3>
+          <h3><a href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}">Interactive Systems and Human Performance</a></h3>
           <p>
-            Visual and immersive methods for reasoning about models and uncertainty, supporting decision-making, and
-            understanding human performance through mixed reality and eye tracking.
+            Interactive and immersive technologies for studying cognitive workload, eye movements, motivation, and
+            performance in mixed-reality and everyday contexts.
           </p>
         </div>
       </article>
