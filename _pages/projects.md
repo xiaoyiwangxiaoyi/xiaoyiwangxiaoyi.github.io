@@ -360,6 +360,38 @@ nav_order: 3
       <div class="project-list">
         <div class="project-item">
           <div class="project-copy">
+            <h3>Prosaccades as lightweight workload probes</h3>
+            <p>
+              Measuring mental workload in mixed-reality teleoperation is important for adapting interfaces before an
+              operator becomes overloaded, but conventional antisaccade tests are difficult and disruptive. This
+              project investigates whether prosaccades - fast, reflexive eye movements toward a stimulus - can provide
+              a lower-burden alternative. In a controlled MR teleoperation study, we compared pro- and antisaccade
+              probes under different workload levels using latency, variability, accuracy, subjective workload, and
+              operational performance. Non-inferiority analyses show that prosaccades preserve objective workload
+              sensitivity for latency and accuracy while remaining faster and less error-prone, offering a practical
+              foundation for brief, episodic workload checks in adaptive interactive systems.
+            </p>
+            <div class="project-resources">
+              <a href="{{ '/assets/video/projects/saccade-probes.mp4' | relative_url }}" target="_blank">
+                <i class="fa-solid fa-video"></i> Video
+              </a>
+            </div>
+          </div>
+          <figure class="project-media">
+            <video
+              controls
+              preload="metadata"
+              playsinline
+              poster="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
+            >
+              <source src="{{ '/assets/video/projects/saccade-probes.mp4' | relative_url }}" type="video/mp4">
+              Your browser does not support embedded video.
+            </video>
+            <figcaption>Prosaccade probes for lightweight workload assessment in MR teleoperation.</figcaption>
+          </figure>
+        </div>
+        <div class="project-item">
+          <div class="project-copy">
             <h3><a href="https://doi.org/10.1016/j.entcom.2018.10.001">Exercise-linked game rewards</a></h3>
             <p>
               Traditional exergames require people to exercise while playing, which can limit accessibility and

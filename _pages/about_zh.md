@@ -288,6 +288,13 @@ latest_posts:
     <h2>最新动态</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-09">2026 年 9 月</time>
+        <span>
+          论文 <em>Prosaccades as Lightweight Workload Probes in MR Teleoperation</em> 被
+          <em>International Journal of Human-Computer Studies</em> 接收发表。
+        </span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-08">2026 年 8 月</time>
         <span>
           赴长沙参加<a href="https://hhme.ccf.org.cn/landing.html">第二届中国人机计算大会暨第二十二届和谐人机环境联合学术会议</a

@@ -263,6 +263,13 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
     <h2>News</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-09">September 2026</time>
+        <span>
+          Our paper <em>Prosaccades as Lightweight Workload Probes in MR Teleoperation</em> was accepted for
+          publication in the <em>International Journal of Human-Computer Studies</em>.
+        </span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-08">August 2026</time>
         <span>
           Attended the
