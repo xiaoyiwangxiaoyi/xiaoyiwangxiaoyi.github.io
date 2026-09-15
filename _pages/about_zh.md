@@ -377,15 +377,15 @@ latest_posts:
         </div>
       </article>
       <article class="research-highlight">
-        <a class="research-highlight-image" href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}" aria-label="了解交互系统与人类绩效项目">
+        <a class="research-highlight-image" href="{{ '/projects/#human-behavior-performance' | relative_url }}" aria-label="了解交互环境中的人类行为与绩效项目">
           <img
             src="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
             alt="采用眼动工作负荷探测的混合现实远程操控实验"
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}">交互系统与人类绩效</a></h3>
-          <p>通过交互与沉浸式技术研究混合现实及日常情境中的认知负荷、眼动行为、动机与人类绩效。</p>
+          <h3><a href="{{ '/projects/#human-behavior-performance' | relative_url }}">交互环境中的人类行为与绩效</a></h3>
+          <p>研究交互环境如何影响认知负荷、眼动行为、动机、行为与人类绩效，涵盖混合现实及日常应用场景。</p>
         </div>
       </article>
     </div>

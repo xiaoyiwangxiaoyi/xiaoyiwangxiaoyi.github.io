@@ -353,15 +353,15 @@ nav_order: 3
   </div>
 </section>
 
-<section id="interactive-systems-human-performance" class="research-direction">
+<section id="human-behavior-performance" class="research-direction">
   <div class="direction-grid">
     <div>
       <div class="direction-number">Direction 02</div>
-      <h2>Interactive Systems and Human Performance</h2>
+      <h2>Human Behavior and Performance in Interactive Environments</h2>
       <p class="direction-summary">
-        We investigate how interactive and immersive technologies shape cognitive workload, attention, motivation, and
-        performance. This direction includes mixed reality, eye tracking, teleoperation, and systems that connect
-        interaction design with human capabilities and experience.
+        We investigate how interactive environments shape cognitive workload, attention, motivation, behavior, and
+        human performance. This direction connects mixed reality, eye tracking, and teleoperation with interactive
+        systems that influence physical activity and everyday behavior.
       </p>
       <div class="project-list">
         <div id="saccade-probes" class="project-item">

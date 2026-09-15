@@ -372,8 +372,8 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
       <article class="research-highlight">
         <a
           class="research-highlight-image"
-          href="{{ '/projects/' | relative_url }}"
-          aria-label="Explore Visual Analytics and Immersive Interaction projects"
+          href="{{ '/projects/#human-behavior-performance' | relative_url }}"
+          aria-label="Explore Human Behavior and Performance in Interactive Environments projects"
         >
           <img
             src="{{ '/assets/img/projects/saccade-probes.jpg' | relative_url }}"
@@ -381,10 +381,10 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           >
         </a>
         <div class="research-highlight-copy">
-          <h3><a href="{{ '/projects/#interactive-systems-human-performance' | relative_url }}">Interactive Systems and Human Performance</a></h3>
+          <h3><a href="{{ '/projects/#human-behavior-performance' | relative_url }}">Human Behavior and Performance in Interactive Environments</a></h3>
           <p>
-            Interactive and immersive technologies for studying cognitive workload, eye movements, motivation, and
-            performance in mixed-reality and everyday contexts.
+            How interactive environments shape cognitive workload, eye movements, motivation, behavior, and human
+            performance across mixed-reality and everyday contexts.
           </p>
         </div>
       </article>
