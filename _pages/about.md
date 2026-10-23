@@ -265,8 +265,12 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
       <li>
         <time class="news-date" datetime="2026-10">October 2026</time>
         <span>
-          Gave a research talk; see the
-          <a href="https://mp.weixin.qq.com/s/e5AGTcGZYVTv0VUxHk183g">event announcement</a>.
+          Gave the talk <em>“Cognitive and Affective Computing for Brain–Computer Integration: From Behavioral Sensing
+          to Intelligent Interaction”</em> at the Engineering–Medicine Integration and Brain–Computer Interfaces special
+          session of the
+          <a href="https://www.gtiit.edu.cn/en/viewNews_7738.aspx">
+            4th 2026 Guangdong–Hong Kong–Macao Greater Bay Area Biomedical Engineering Innovation and Development Forum
+          </a>.
         </span>
       </li>
       <li>
