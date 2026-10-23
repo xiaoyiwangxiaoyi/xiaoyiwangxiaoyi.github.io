@@ -263,6 +263,13 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
     <h2>News</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-10">October 2026</time>
+        <span>
+          Gave a research talk; see the
+          <a href="https://mp.weixin.qq.com/s/e5AGTcGZYVTv0VUxHk183g">event announcement</a>.
+        </span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-09">September 2026</time>
         <span>
           Our paper <em>Prosaccades as Lightweight Workload Probes in MR Teleoperation</em> was accepted for
@@ -287,17 +294,17 @@ His research lies at the intersection of Human–Computer Interaction and Artifi
           (ChinaVis 2026) in Guiyang.
         </span>
       </li>
-      <li>
-        <time class="news-date" datetime="2026-06">June 2026</time>
-        <span>
-          Our paper <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> was accepted for publication in
-          the <em>International Journal of Human-Computer Studies</em>.
-        </span>
-      </li>
     </ul>
     <details class="earlier-news">
       <summary>Earlier news</summary>
       <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2026-06">June 2026</time>
+          <span>
+            Our paper <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> was accepted for publication
+            in the <em>International Journal of Human-Computer Studies</em>.
+          </span>
+        </li>
         <li>
           <time class="news-date" datetime="2026-03">March 2026</time>
           <span class="news-detail-lines">

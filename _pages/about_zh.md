@@ -288,6 +288,10 @@ latest_posts:
     <h2>最新动态</h2>
     <ul class="news-list">
       <li>
+        <time class="news-date" datetime="2026-10">2026 年 10 月</time>
+        <span>作学术报告，详见<a href="https://mp.weixin.qq.com/s/e5AGTcGZYVTv0VUxHk183g">活动报道</a>。</span>
+      </li>
+      <li>
         <time class="news-date" datetime="2026-09">2026 年 9 月</time>
         <span>
           论文 <em>Prosaccades as Lightweight Workload Probes in MR Teleoperation</em> 被
@@ -307,17 +311,17 @@ latest_posts:
           赴贵阳参加<a href="https://chinavis.org/2026/en/">第十三届中国可视化与可视分析大会</a>（ChinaVis 2026）。
         </span>
       </li>
-      <li>
-        <time class="news-date" datetime="2026-06">2026 年 6 月</time>
-        <span>
-          论文 <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> 被
-          <em>International Journal of Human-Computer Studies</em> 接收发表。
-        </span>
-      </li>
     </ul>
     <details class="earlier-news">
       <summary>更早动态</summary>
       <ul class="news-list">
+        <li>
+          <time class="news-date" datetime="2026-06">2026 年 6 月</time>
+          <span>
+            论文 <a href="https://doi.org/10.1016/j.ijhcs.2026.103853">MIAdvisor</a> 被
+            <em>International Journal of Human-Computer Studies</em> 接收发表。
+          </span>
+        </li>
         <li>
           <time class="news-date" datetime="2026-03">2026 年 3 月</time>
           <span class="news-detail-lines">
