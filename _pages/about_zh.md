@@ -291,7 +291,7 @@ latest_posts:
         <time class="news-date" datetime="2026-10">2026 年 10 月</time>
         <span>
           在<a href="https://www.gtiit.edu.cn/viewNews_7737.aspx">第四届 2026 粤港澳大湾区生物医学工程创新发展论坛</a
-          >“医工融合与脑机接口”专场作题为《面向脑机融合的认知与情感计算：从行为感知到智能交互》的学术报告。
+          >作题为《面向脑机融合的认知与情感计算：从行为感知到智能交互》的报告。
         </span>
       </li>
       <li>
